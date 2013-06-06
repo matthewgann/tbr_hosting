@@ -126,6 +126,8 @@ projects[phone][version] = "1.x-dev"
 
 projects[publish_date][version] = "1.1"
 
+projects[references]
+
 projects[respondjs][version] = "1.2"
 
 projects[rules][version] = "2.3"
@@ -215,8 +217,14 @@ libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Features
-projects[policies][subdir] = tbr
-projects[policies][type] = module
-projects[policies][download][type] = git   
-projects[policies][download][branch] = master
-projects[policies][download][url] = "https://github.com/matthewgann/policies.git"
+projects[tbr_policies][subdir] = tbr
+projects[tbr_policies][type] = module
+projects[tbr_policies][download][type] = git   
+projects[tbr_policies][download][branch] = master
+projects[tbr_policies][download][url] = "https://github.com/matthewgann/tbr_policies.git"
+
+projects[tbr_wysiwyg][subdir] = tbr
+projects[tbr_wysiwyg][type] = module
+projects[tbr_wysiwyg][download][type] = git   
+projects[tbr_wysiwygs][download][branch] = master
+projects[tbr_wysiwyg][download][url] = "https://github.com/matthewgann/tbr_wysiwyg.git"
