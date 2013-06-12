@@ -221,8 +221,3 @@ projects[tbr_policies][type] = "module"
 projects[tbr_policies][download][type] = "git"
 projects[tbr_policies][subdir] = tbr
 projects[tbr_policies][location] = "git://github.com/matthewgann/tbr_policies.git"
-
-projects[tbr_policies][type] = "module"
-projects[tbr_policies][download][type] = "git"
-projects[tbr_wysiwyg][subdir] = tbr
-projects[tbr_wysiwyg][location] = "git://github.com/matthewgann/tbr_wysiwyg.git"
