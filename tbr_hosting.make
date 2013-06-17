@@ -217,6 +217,8 @@ libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip
 libraries[colorbox][directory_name] = "colorbox"
 
 ; Features
+projects[tbr_policies][type] = "module"
 projects[tbr_policies][subdir] = tbr
-projects[tbr_policies][version] = 1.1
-projects[tbr_policies][location] = http://fserver.tbrweb05.tbr.edu/fserver
+projects[tbr_policies][download][type] = "git"
+projects[tbr_policies][download][url] = "git://github.com/matthewgann/tbr_policies.git"
+projects[tbr_policies][download][revision] = "4245936041a2e6a91d6a3ae39e1856fe8297f39d"
