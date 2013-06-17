@@ -218,6 +218,6 @@ libraries[colorbox][directory_name] = "colorbox"
 
 ; Features
 projects[tbr_policies][type] = "module"
-projects[tbr_policies][download][type] = "git"
-projects[tbr_policies][subdir] = tbr
-projects[tbr_policies][location] = "git://github.com/matthewgann/tbr_policies.git"
+projects[tbr_policies][download][type] = "get"
+projects[tbr_policies][subdir] = features
+projects[tbr_policies][location] = "http://fserver.tbrweb05.tbr.edu/sites/fserver.tbrweb05.tbr.edu/files/fserver/policies-7.x-1.0.tar"
