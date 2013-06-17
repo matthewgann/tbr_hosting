@@ -5,23 +5,29 @@
  * Perform actions to set up the site for this profile.
  */
 function tbr_hosting_install() {
-  
   // Enable some tbr_hosting blocks.
-  theme_disable(array('bartik'));
-
-  $enabled = array(
-    'theme_default' => 'tbr_bootstrap',
-    'admin_theme' => 'adminimal',
-  );
-  theme_enable($enabled);
-
-  foreach ($enabled as $var => $theme) {
-    variable_set($var, $theme);
-  }
-  
-	$default_theme = variable_get('theme_default', 'tbr_bootstrap');
+  $default_theme = 'tbr_bootstrap';
   $admin_theme = 'adminimal';
-  
+  // disable all themes
+  db_update('system')
+    ->fields(array('status' => 0))
+    ->condition('type', 'theme')
+    ->execute();
+  // enable $default_theme
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $default_theme)
+    ->execute();
+  // enable $admin_theme
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $admin_theme)
+    ->execute();
+  variable_set('admin_theme', $admin_theme);
+  // activate admin theme when editing a node
+  variable_set('node_admin_theme', '1');
   $blocks = array(
     array(
       'module' => 'system',
@@ -77,7 +83,6 @@ function tbr_hosting_install() {
   // drop system / user blocks to ensure correct building
   db_delete('block')->condition('module', 'system')->execute();
   db_delete('block')->condition('module', 'user')->execute();
-  
   // add in our blocks defined above
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($blocks as $block) {
@@ -281,13 +286,9 @@ function tbr_hosting_install() {
     'feeds_import',
     'meeting_materials'
   );
-  
-   // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'admininmal')
-    ->execute();
-  variable_set('admin_theme', 'adminimal');
-  variable_set('node_admin_theme', '1'); 
+  features_revert($features);
+  // ignore any rebuild messages
+  node_access_needs_rebuild(FALSE);
+  // ignore any other install messages
+  drupal_get_messages();
 }
