@@ -73,8 +73,6 @@ projects[imageapi][version] = "1.x-dev"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[jquery_update][version] = "2.3"
-
 projects[ldap][version] = "2.0-beta4"
 
 projects[libraries][version] = "2.1"

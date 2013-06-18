@@ -140,7 +140,6 @@ dependencies[] = uuid
 ; User interface
 dependencies[] = ckeditor_link
 dependencies[] = extlink
-dependencies[] = jquery_update
 dependencies[] = tbr_showsummary
 dependencies[] = options_element
 dependencies[] = wysiwyg
