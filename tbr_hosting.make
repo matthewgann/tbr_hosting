@@ -221,10 +221,3 @@ projects[tbr_hosting][type] = "profile"
 projects[tbr_hosting][download][type] = git
 projects[tbr_hosting][download][url] = "git://github.com/matthewgann/tbr_hosting.git"
 projects[tbr_hosting][download][revision] = "c7a8104294018babda57ddac2dfbaaeec5ca9f3d"
-
-; Features
-projects[tbr_policies][type] = "module"
-projects[tbr_policies][subdir] = tbr
-projects[tbr_policies][download][type] = "git"
-projects[tbr_policies][download][url] = "git://github.com/matthewgann/tbr_policies.git"
-projects[tbr_policies][download][revision] = "4245936041a2e6a91d6a3ae39e1856fe8297f39d"
