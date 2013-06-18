@@ -13,8 +13,6 @@ projects[util][version] = "1.0-rc1"
 
 projects[advanced_help][version] = "1.0"
 
-projects[backup_migrate][version] = "2.4"
-
 projects[better_exposed_filters][version] = "3.0-beta3"
 
 projects[boxes][version] = "1.1"
@@ -101,11 +99,6 @@ projects[tbr_showsummary][download][type] = git
 projects[tbr_showsummary][download][branch] = master
 projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
 
-projects[tbr_bootstrap][type] = theme
-projects[tbr_bootstrap][download][type] = git
-projects[tbr_bootstrap][download][branch] = master
-projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
-
 projects[module_filter][version] = "1.7"
 
 projects[multiform][version] = "1.0"
@@ -170,10 +163,10 @@ projects[workbench_moderation][version] = "1.3"
 
 projects[wysiwyg][version] = "2.x-dev"
 
-projects[workbench_access_menus][type] = "module"
-projects[workbench_access_menus][download][type] = "git"
-projects[workbench_access_menus][download][url] = "http://git.drupal.org/sandbox/RajeevSingh/1967006.git"
-projects[workbench_access_menus][download][revision] = "7393040861f8a525958cc7786d54a127612426be"
+;projects[workbench_access_menus][type] = "module"
+;projects[workbench_access_menus][download][type] = "git"
+;projects[workbench_access_menus][download][url] = "http://git.drupal.org/sandbox/RajeevSingh/1967006.git"
+;projects[workbench_access_menus][download][revision] = "7393040861f8a525958cc7786d54a127612426be"
 
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
@@ -182,6 +175,11 @@ projects[open_framework][download][type] = "get"
 projects[open_framework][type] = theme
 projects[open_framework][download][url] = "http://webapps.tbr.edu/drupal/open_framework-7.x-2.04-beta.zip"
 projects[open_framework][directory_name] = "open_framework"
+
+projects[tbr_bootstrap][type] = theme
+projects[tbr_bootstrap][download][type] = git
+projects[tbr_bootstrap][download][branch] = master
+projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
 
 ; Libraries
 libraries[markitup][download][type] = "get"
