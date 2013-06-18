@@ -59,8 +59,6 @@ projects[feeds][version] = "2.0-alpha8"
 
 projects[field_collection][version] = "1.0-beta5"
 
-projects[field_group][version] = "1.x-dev"
-
 projects[file_entity][version] = "2.0-unstable7"
 
 projects[form_builder][version] = "1.3"
@@ -213,5 +211,5 @@ libraries[colorbox][directory_name] = "colorbox"
 ;Profiles
 projects[tbr_hosting][type] = "profile"
 projects[tbr_hosting][download][type] = git
+projects[tbr_hosting][download][branch] = master
 projects[tbr_hosting][download][url] = "git://github.com/matthewgann/tbr_hosting.git"
-projects[tbr_hosting][download][revision] = "c7a8104294018babda57ddac2dfbaaeec5ca9f3d"
