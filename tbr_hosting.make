@@ -55,7 +55,7 @@ projects[entitycache][version] = "1.1"
 
 projects[extlink][version] = "1.12"
 
-projects[features][version] = "1.0"
+projects[features][version] = "2.0-rc1"
 
 projects[feeds][version] = "2.0-alpha8"
 
