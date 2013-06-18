@@ -112,8 +112,6 @@ projects[multiform][version] = "1.0"
 
 projects[node_export][version] = "3.0"
 
-projects[omega_tools][version] = "3.0-rc4"
-
 projects[options_element][version] = "1.9"
 
 projects[panels][version] = "3.3"
