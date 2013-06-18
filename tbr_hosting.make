@@ -210,6 +210,6 @@ libraries[colorbox][directory_name] = "colorbox"
 
 ;Profiles
 projects[tbr_hosting][type] = "profile"
-projects[tbr_hosting][download][type] = "git"
-projects[tbr_hosting][download][branch] = "master"
+projects[tbr_hosting][download][type] = git
+projects[tbr_hosting][download][branch] = master
 projects[tbr_hosting][download][url] = "git://github.com/matthewgann/tbr_hosting.git"
