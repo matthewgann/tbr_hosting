@@ -95,7 +95,6 @@ dependencies[] = node_export
 dependencies[] = node_export_features
 ; Other
 dependencies[] = advanced_help
-dependencies[] = backup_migrate
 dependencies[] = boxes
 dependencies[] = colorbox
 dependencies[] = contextual_flyout_links
