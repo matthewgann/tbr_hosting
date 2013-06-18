@@ -39,7 +39,7 @@ projects[download_file][version] = "1.1"
 
 projects[draggableviews][version] = "2.0"
 
-projects[ds][version] = "2.2"
+projects[ds][version] = "2.4"
 
 projects[edit_profile][version] = "1.0-beta2"
 
@@ -59,7 +59,7 @@ projects[feeds][version] = "2.0-alpha8"
 
 projects[field_collection][version] = "1.0-beta5"
 
-projects[field_group][version] = "2.x-dev"
+projects[field_group][version] = "1.x-dev"
 
 projects[file_entity][version] = "2.0-unstable7"
 
@@ -71,7 +71,7 @@ projects[imageapi][version] = "1.x-dev"
 
 projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[ldap][version] = "2.0-beta4"
+projects[ldap][version] = "2.0-beta5"
 
 projects[libraries][version] = "2.1"
 
@@ -149,7 +149,7 @@ projects[colorbox][version] = "2.4"
 
 projects[views_php][version] = "1.x-dev"
 
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 projects[webform_validation][version] = "1.2"
 
