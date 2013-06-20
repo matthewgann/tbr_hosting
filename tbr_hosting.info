@@ -69,7 +69,6 @@ dependencies[] = computed_field
 dependencies[] = computed_field_tools
 dependencies[] = email
 dependencies[] = field_collection
-dependencies[] = field_group
 dependencies[] = link
 dependencies[] = phone
 ; ImageAPI
