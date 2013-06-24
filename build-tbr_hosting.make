@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 
+includes[] = https://raw.github.com/matthewgann/tbr_hosting/master/drupal-org.make
+
 ;Profiles
 projects[tbr_hosting][type] = "profile"
 projects[tbr_hosting][download][type] = "git"
