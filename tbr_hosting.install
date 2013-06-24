@@ -5,29 +5,68 @@
  * Perform actions to set up the site for this profile.
  */
 function tbr_hosting_install() {
+$filtered_html_format = array(
+    'format' => 'filtered_html',
+    'name' => 'Filtered HTML',
+    'weight' => 0,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // HTML filter.
+      'filter_html' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 2,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
+  );
+  $filtered_html_format = (object) $filtered_html_format;
+  filter_format_save($filtered_html_format);
+
+  $full_html_format = array(
+    'format' => 'full_html',
+    'name' => 'Full HTML',
+    'weight' => 1,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
+  );
+  $full_html_format = (object) $full_html_format;
+  filter_format_save($full_html_format);
+
+
+
+
   // Enable some tbr_hosting blocks.
-  $default_theme = 'tbr_bootstrap';
-  $admin_theme = 'adminimal';
-  // disable all themes
-  db_update('system')
-    ->fields(array('status' => 0))
-    ->condition('type', 'theme')
-    ->execute();
-  // enable $default_theme
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', $default_theme)
-    ->execute();
-  // enable $admin_theme
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', $admin_theme)
-    ->execute();
-  variable_set('admin_theme', $admin_theme);
-  // activate admin theme when editing a node
-  variable_set('node_admin_theme', '1');
+  $default_theme = variable_get('theme_default', 'bartik');
+  $admin_theme = 'seven';
+  
   $blocks = array(
     array(
       'module' => 'system',
@@ -81,9 +120,6 @@ function tbr_hosting_install() {
     ),
   );
   // drop system / user blocks to ensure correct building
-  db_delete('block')->condition('module', 'system')->execute();
-  db_delete('block')->condition('module', 'user')->execute();
-  // add in our blocks defined above
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($blocks as $block) {
     $query->values($block);
@@ -93,12 +129,21 @@ function tbr_hosting_install() {
   // Insert default pre-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
   // documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
-  $types = array(
+$types = array(
     array(
       'type' => 'page',
-      'name' => st('Page'),
+      'name' => st('Basic page'),
       'base' => 'node_content',
-      'description' => st("Use <em>pages</em> for basic page content."),
+      'description' => st("Use <em>basic pages</em> for your static content, such as an 'About us' page."),
+      'custom' => 1,
+      'modified' => 1,
+      'locked' => 0,
+    ),
+    array(
+      'type' => 'article',
+      'name' => st('Article'),
+      'base' => 'node_content',
+      'description' => st('Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'),
       'custom' => 1,
       'modified' => 1,
       'locked' => 0,
@@ -112,6 +157,7 @@ function tbr_hosting_install() {
   }
 
   // Insert default pre-defined RDF mapping into the database.
+  // Insert default pre-defined RDF mapping into the database.
   $rdf_mappings = array(
     array(
       'type' => 'node',
@@ -120,16 +166,34 @@ function tbr_hosting_install() {
         'rdftype' => array('foaf:Document'),
       ),
     ),
+    array(
+      'type' => 'node',
+      'bundle' => 'article',
+      'mapping' => array(
+        'field_image' => array(
+          'predicates' => array('og:image', 'rdfs:seeAlso'),
+          'type' => 'rel',
+        ),
+        'field_tags' => array(
+          'predicates' => array('dc:subject'),
+          'type' => 'rel',
+        ),
+      ),
+    ),
   );
   foreach ($rdf_mappings as $rdf_mapping) {
     rdf_mapping_save($rdf_mapping);
   }
 
-  // Default "Page" to not be promoted and have comments disabled.
+ // Default "Basic page" to not be promoted and have comments disabled.
   variable_set('node_options_page', array('status'));
+  variable_set('comment_page', COMMENT_NODE_HIDDEN);
 
-  // Don't display date and author information for "Page" nodes by default.
+  // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
+  
+  // Enable user picture support and set the default to a square thumbnail option.
+  variable_set('user_pictures', '0');
 
   // Create a default vocabulary named "Tags", enabled for the 'article' content type.
   $description = st('Use tags to group articles on similar topics into categories.');
@@ -181,7 +245,6 @@ function tbr_hosting_install() {
     ),
   );
   field_create_instance($instance);
-
 
   // Create an image field named "Image", enabled for the 'article' content type.
   // Many of the following values will be defaulted, they're included here as an illustrative examples.
@@ -249,27 +312,17 @@ function tbr_hosting_install() {
     ),
   );
   field_create_instance($instance);
-  // Create a Home link in the main menu.
-  $item = array(
-    'link_title' => st('Home'),
-    'link_path' => '<front>',
-    'menu_name' => 'main-menu',
-  );
-  menu_link_save($item);
-  // From shortcut.install, add shortcuts to the default set on install
-  $shortcut_set = shortcut_set_load(SHORTCUT_DEFAULT_SET_NAME);
-  $shortcut_set->links = NULL;
-  $shortcut_set->links = array(
-    array(
-      'link_path' => 'admin/appearance/settings',
-      'link_title' => st('Theme'),
-      'weight' => -17,
-    ),
-  );
-  shortcut_set_save($shortcut_set);// Create a default role for site administrators, with all available permissions assigned.
+  
+// Enable default permissions for system roles.
+  $filtered_html_permission = filter_permission_name($filtered_html_format);
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
+  
+  
+  // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
-  $admin_role->weight = 10;
+  $admin_role->weight = 2;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
   // Set this as the administrator role.
@@ -279,16 +332,24 @@ function tbr_hosting_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+
+  // Create a Home link in the main menu.
+  $item = array(
+    'link_title' => st('Home'),
+    'link_path' => '<front>',
+    'menu_name' => 'main-menu',
+  );
+  menu_link_save($item);
+
   // Update the menu router information.
   menu_rebuild();
-  // revert features to ensure they are all installed
-  $features = array(
-    'feeds_import',
-    'meeting_materials'
-  );
-  features_revert($features);
-  // ignore any rebuild messages
-  node_access_needs_rebuild(FALSE);
-  // ignore any other install messages
-  drupal_get_messages();
+
+  // Enable the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'seven')
+    ->execute();
+  variable_set('admin_theme', 'seven');
+  variable_set('node_admin_theme', '1');
 }
