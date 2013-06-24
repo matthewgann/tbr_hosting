@@ -2,6 +2,10 @@ api = 2
 
 core = 7.x
 
+projects[drupal][version] = 7.22
+
+projects[drupal][type] = core
+
 projects[field_group][subdir] = contrib
 
 projects[field_group][version] = 1.1
