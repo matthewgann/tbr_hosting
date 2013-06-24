@@ -1,6 +1,6 @@
 api = 2
 core = 7.x
-includes[] = drupal-org.make
+includes[] = https://raw.github.com/matthewgann/tbr_hosting/master/drupal-org.make
 
 ;Profiles
 projects[tbr_hosting][type] = "profile"
