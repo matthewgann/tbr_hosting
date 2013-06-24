@@ -1,12 +1,6 @@
 api = 2
-
 core = 7.x
-
 projects[drupal][version] = 7.22
-
-projects[drupal][type] = core
-
-projects[field_group][subdir] = contrib
 
 projects[field_group][version] = 1.1
 
@@ -23,8 +17,6 @@ projects[advanced_help][version] = "1.0"
 projects[better_exposed_filters][version] = "3.0-beta3"
 
 projects[boxes][version] = "1.1"
-
-projects[views_tree][version] = "2.0"
 
 projects[ctools][version] = "1.3"
 
@@ -161,8 +153,6 @@ projects[webform_validation][version] = "1.2"
 projects[workbench][version] = "1.2"
 
 projects[workbench_access][version] = "1.2"
-
-projects[workbench_files][version] = "1.0"
 
 projects[workbench_moderation][version] = "1.3"
 
