@@ -154,11 +154,6 @@ dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
 dependencies[] = webform_validation
-; Workbench
-dependencies[] = workbench
-dependencies[] = workbench_access
-dependencies[] = workbench_files
-dependencies[] = workbench_moderation
 ; oEmbed
 dependencies[] = oembedcore
 ; Features
