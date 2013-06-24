@@ -1,8 +1,11 @@
-core = 7.x
 api = 2
-projects[drupal][version] = 7.22
 
-; Modules
+core = 7.x
+
+projects[field_group][subdir] = contrib
+
+projects[field_group][version] = 1.1
+
 projects[views_bulk_operations][version] = "3.1"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -207,9 +210,3 @@ libraries[respondjs][directory_name] = "respondjs"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
-
-;Profiles
-;projects[tbr_hosting][type] = "profile"
-;projects[tbr_hosting][download][type] = git
-;projects[tbr_hosting][download][branch] = master
-;projects[tbr_hosting][download][url] = "git://github.com/matthewgann/tbr_hosting.git"
