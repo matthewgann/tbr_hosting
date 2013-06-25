@@ -36,6 +36,8 @@ projects[date][version] = "2.6"
 
 projects[devel][version] = "1.3"
 
+projects[diff][version] = "3.2"
+
 projects[download_file][version] = "1.1"
 
 projects[draggableviews][version] = "2.0"
@@ -145,6 +147,8 @@ projects[views_php][version] = "1.x-dev"
 projects[webform][version] = "3.19"
 
 projects[webform_validation][version] = "1.2"
+
+projects[Web_widgets][version] = "1.x-dev"
 
 projects[workbench][version] = "1.2"
 
