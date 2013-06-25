@@ -36,8 +36,8 @@ dependencies[] = overlay
 
 ; Required modules (contrib)
 dependencies[] = module_filter
-dependencies[] = adminimal_admin_menu
 dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
 dependencies[] = breakpoints
 dependencies[] = advanced_help
 dependencies[] = better_exposed_filters
