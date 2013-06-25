@@ -157,7 +157,7 @@ projects[ckeditor][version] = "1.13"
 
 ; Themes
 ;projects[adminimal_theme][version] = "1.x-dev"
-projects[ember][version] = "1.0-alpha9"
+projects[ember][version] = "1.0-alpha6"
 
 projects[open_framework][download][type] = "get"
 projects[open_framework][type] = theme
