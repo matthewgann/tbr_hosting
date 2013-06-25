@@ -7,10 +7,9 @@ projects[drupal][version] = "7.22"
 
 projects[views_bulk_operations][version] = "3.1"
 
-;projects[admin_menu][version] = "3.0-rc4"
-;projects[adminimal_admin_menu][version] = "1.x-dev"
+projects[admin_menu][version] = "3.0-rc4"
 
-projects[navbar][version] = "1.0-alpha10"
+projects[adminimal_admin_menu][version] = "1.x-dev"
 
 projects[util][version] = "1.0-rc1"
 
@@ -160,8 +159,7 @@ projects[workbench_moderation][version] = "1.3"
 projects[ckeditor][version] = "1.13"
 
 ; Themes
-;projects[adminimal_theme][version] = "1.x-dev"
-projects[ember][version] = "1.0-alpha6"
+projects[adminimal_theme][version] = "1.x-dev"
 
 projects[open_framework][download][type] = "get"
 projects[open_framework][type] = theme
