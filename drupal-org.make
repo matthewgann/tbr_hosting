@@ -148,8 +148,6 @@ projects[webform][version] = "3.19"
 
 projects[webform_validation][version] = "1.2"
 
-projects[web_widgets][version] = "1.x-dev"
-
 projects[workbench][version] = "1.2"
 
 projects[workbench_access][version] = "1.2"
@@ -205,4 +203,3 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[backbone][download][type] = "git"
 libraries[backbone][download][url] = "https://github.com/documentcloud/backbone.git"
 libraries[backbone][download][directory_name] = "backbone"
-
