@@ -78,7 +78,7 @@ projects[libraries][version] = "2.1"
 
 projects[link][version] = "1.1"
 
-projects[media][version] = "2.0-unstable7"
+projects[media][version] = "2.x-dev"
 
 projects[oembed][version] = "0.1-beta3"
 
