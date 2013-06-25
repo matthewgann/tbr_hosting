@@ -3,7 +3,7 @@ core = 7.x
 
 projects[drupal][version] = "7.22"
 
-projects[field_group][version] = "1.1"
+;projects[field_group][version] = "1.1"
 
 projects[views_bulk_operations][version] = "3.1"
 
