@@ -148,7 +148,7 @@ projects[webform][version] = "3.19"
 
 projects[webform_validation][version] = "1.2"
 
-projects[Web_widgets][version] = "1.x-dev"
+projects[web_widgets][version] = "1.x-dev"
 
 projects[workbench][version] = "1.2"
 
