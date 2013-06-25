@@ -20,6 +20,8 @@ projects[better_exposed_filters][version] = "3.0-beta3"
 
 projects[boxes][version] = "1.1"
 
+projects[breakpoints][version] = "1.1"
+
 projects[ctools][version] = "1.3"
 
 projects[calendar][version] = "3.4"
