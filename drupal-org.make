@@ -1,14 +1,16 @@
 api = 2
-core = 7.x
+core = 7.
+
 projects[drupal][version] = "7.22"
 
 projects[field_group][version] = "1.1"
 
 projects[views_bulk_operations][version] = "3.1"
 
-projects[admin_menu][version] = "3.0-rc4"
+;projects[admin_menu][version] = "3.0-rc4"
+;projects[adminimal_admin_menu][version] = "1.x-dev"
 
-projects[adminimal_admin_menu][version] = "1.x-dev"
+projects[navbar][version] = "1.0-alpha10"
 
 projects[util][version] = "1.0-rc1"
 
@@ -56,17 +58,17 @@ projects[features][version] = "2.0-rc1"
 
 projects[feeds][version] = "2.0-alpha8"
 
-projects[field_collection][version] = "1.0-beta5"
+projects[field_collection][version] = "1.x-dev"
 
-projects[file_entity][version] = "2.0-unstable7"
+projects[file_entity][version] = "2.x-dev"
 
-projects[form_builder][version] = "1.3"
+projects[form_builder][version] = "1.4"
 
 projects[gss][version] = "1.9"
 
 projects[imageapi][version] = "1.x-dev"
 
-projects[job_scheduler][version] = "2.0-alpha3"
+projects[job_scheduler][version] = "2.x-dev"
 
 projects[ldap][version] = "2.0-beta5"
 
@@ -108,8 +110,6 @@ projects[panels][version] = "3.3"
 
 projects[pathauto][version] = "1.x-dev"
 
-projects[phone][version] = "1.x-dev"
-
 projects[publish_date][version] = "1.1"
 
 projects[references][version] = "2.1"
@@ -117,10 +117,6 @@ projects[references][version] = "2.1"
 projects[respondjs][version] = "1.2"
 
 projects[rules][version] = "2.3"
-
-projects[schema][version] = "1.0-beta4"
-
-projects[security_review][version] = "1.0"
 
 projects[special_menu_items][version] = "2.0"
 
@@ -156,15 +152,12 @@ projects[workbench_access][version] = "1.2"
 
 projects[workbench_moderation][version] = "1.3"
 
-projects[wysiwyg][version] = "2.x-dev"
-
-;projects[workbench_access_menus][type] = "module"
-;projects[workbench_access_menus][download][type] = "git"
-;projects[workbench_access_menus][download][url] = "http://git.drupal.org/sandbox/RajeevSingh/1967006.git"
-;projects[workbench_access_menus][download][revision] = "7393040861f8a525958cc7786d54a127612426be"
+;projects[wysiwyg][version] = "2.x-dev"
+projects[ckeditor][version] = "1.13"
 
 ; Themes
-projects[adminimal_theme][version] = "1.x-dev"
+;projects[adminimal_theme][version] = "1.x-dev"
+projects[ember][version] = "1.0-alpha9"
 
 projects[open_framework][download][type] = "get"
 projects[open_framework][type] = theme
@@ -204,3 +197,8 @@ libraries[respondjs][directory_name] = "respondjs"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
+
+libraries[backbone][download][type] = "git"
+libraries[backbone][download][url] = "https://github.com/documentcloud/backbone.git"
+libraries[backbone][download][directory_name] = "backbone"
+

@@ -65,8 +65,8 @@ $filtered_html_format = array(
 
   // Enable some tbr_hosting blocks.
   $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
-  
+  $admin_theme = 'ember';
+
   $blocks = array(
     array(
       'module' => 'system',
@@ -125,7 +125,7 @@ $filtered_html_format = array(
     $query->values($block);
   }
   $query->execute();
-  
+
   // Insert default pre-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
   // documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
@@ -191,7 +191,7 @@ $types = array(
 
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
-  
+
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '0');
 
@@ -312,13 +312,13 @@ $types = array(
     ),
   );
   field_create_instance($instance);
-  
+
 // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
-  
-  
+
+
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
