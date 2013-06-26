@@ -6,8 +6,8 @@
  */
 function tbr_hosting_install() {
   $enable = array(
-    'theme_default' => 'iexplore',
-    'admin_theme' => 'seven',
+    'theme_default' => 'tbr_bootstrap',
+    'admin_theme' => 'adminimal_theme',
     //'zen'
   );
   theme_enable($enable);
