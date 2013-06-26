@@ -9,10 +9,10 @@ projects[views_bulk_operations][version] = "3.1"
 
 projects[admin_menu][version] = "3.0-rc4"
 
-projects[admin_menu_adminimal][type] = module
-projects[admin_menu_adminimal][download][type] = git
-projects[admin_menu_adminimal][download][branch] = master
-projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
+;projects[admin_menu_adminimal][type] = module
+;projects[admin_menu_adminimal][download][type] = git
+;projects[admin_menu_adminimal][download][branch] = master
+;projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
 projects[util][version] = "1.0-rc1"
 
