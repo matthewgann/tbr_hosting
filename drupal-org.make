@@ -163,7 +163,8 @@ projects[ckeditor][version] = "1.13"
 
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
-projects[omega][version = "4.0-beta4"
+
+projects[omega][version] = "4.0-beta4"
 
 projects[ohm][download][type] = "git"
 projects[ohm][type] = "theme"
@@ -209,6 +210,6 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
 
-libraries[backbone][download][type] = "git"
-libraries[backbone][download][url] = "https://github.com/documentcloud/backbone.git"
-libraries[backbone][download][directory_name] = "backbone"
+;libraries[backbone][download][type] = "git"
+;libraries[backbone][download][url] = "https://github.com/documentcloud/backbone.git"
+;libraries[backbone][download][directory_name] = "backbone"
