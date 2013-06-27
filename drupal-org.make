@@ -164,9 +164,9 @@ projects[ckeditor][version] = "1.13"
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
 
-projects[open_framework][download][type] = "get"
+projects[open_framework][download][type] = "git"
 projects[open_framework][type] = theme
-projects[open_framework][download][url] = "http://webapps.tbr.edu/drupal/open_framework-7.x-2.04-beta.zip"
+projects[open_framework][download][url] = "https://github.com/matthewgann/open_framework.git"
 projects[open_framework][directory_name] = "open_framework"
 
 projects[tbr_bootstrap][type] = theme
