@@ -59,7 +59,7 @@ function tbr_hosting_install() {
 
 
   // Enable some tbr_hosting blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
+  $default_theme = variable_get('theme_default', 'tbr_bootstrap');
   $admin_theme = 'adminimal_theme';
 
   $blocks = array(

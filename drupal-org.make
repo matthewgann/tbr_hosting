@@ -164,13 +164,6 @@ projects[ckeditor][version] = "1.13"
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
 
-projects[omega][version] = "4.0-beta4"
-
-projects[ohm][download][type] = "git"
-projects[ohm][type] = "theme"
-projects[ohm][download][url] = "http://git.drupal.org/project/ohm.git"
-projects[ohm][directory_name] = "ohm"
-
 projects[open_framework][download][type] = "get"
 projects[open_framework][type] = theme
 projects[open_framework][download][url] = "http://webapps.tbr.edu/drupal/open_framework-7.x-2.04-beta.zip"
