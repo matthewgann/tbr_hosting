@@ -76,9 +76,8 @@ projects[imageapi][version] = "1.x-dev"
 
 projects[job_scheduler][version] = "2.x-dev"
 
-projects[ldap][type] = module
-projects[ldap][version] = 2.0-beta5
-; Fixing 'Warning: mcrypt_generic_init(): Key size too large;
+projects[ldap][version] = "2.0-beta5"
+; Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
 
 
