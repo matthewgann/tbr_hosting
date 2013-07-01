@@ -77,6 +77,7 @@ projects[imageapi][version] = "1.x-dev"
 projects[job_scheduler][version] = "2.x-dev"
 
 projects[ldap][version] = "2.0-beta5"
+projects[ldap][patch][] = "https://drupal.org/files/ldap_servers-fix-mycrpt-key.patch"
 
 projects[libraries][version] = "2.1"
 
