@@ -14,6 +14,11 @@ projects[admin_menu_adminimal][download][type] = git
 projects[admin_menu_adminimal][download][branch] = master
 projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
+projects[taxonomy_breadcrumb][type] = module
+projects[taxonomy_breadcrumb][download][type] = git
+projects[taxonomy_breadcrumb][download][branch] = master
+projects[taxonomy_breadcrumb][download][url] = "https://github.com/matthewgann/taxonomy_breadcrumb.git"
+
 projects[util][version] = "1.0-rc1"
 
 projects[advanced_help][version] = "1.0"
@@ -116,8 +121,6 @@ projects[node_export][version] = "3.0"
 projects[options_element][version] = "1.9"
 
 projects[panels][version] = "3.3"
-
-projects[path_breadcrumbs] = "3.0-beta3"
 
 projects[pathauto][version] = "1.x-dev"
 
