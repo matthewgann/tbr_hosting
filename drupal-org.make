@@ -139,7 +139,7 @@ projects[token_filter][version] = "1.1"
 
 projects[uuid][version] = "1.0-alpha4"
 
-projects[ux_elements][version] = "1.0-beta1"
+projects[elements][version] = "1.4"
 
 projects[views][version] = "3.7"
 
