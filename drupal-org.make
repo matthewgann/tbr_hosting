@@ -117,6 +117,8 @@ projects[options_element][version] = "1.9"
 
 projects[panels][version] = "3.3"
 
+projects[path_breadcrumbs] = "3.0-beta3"
+
 projects[pathauto][version] = "1.x-dev"
 
 projects[publish_date][version] = "1.1"

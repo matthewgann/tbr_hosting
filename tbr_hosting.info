@@ -63,6 +63,7 @@ dependencies[] = references
 dependencies[] = imageapi
 dependencies[] = imageapi_gd
 ;dependencies[] = pathologic
+dependencies[] = path_breadcrumbs
 dependencies[] = ldap_authorization
 dependencies[] = ldap_servers
 dependencies[] = ldap_sso
