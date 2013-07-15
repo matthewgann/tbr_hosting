@@ -142,7 +142,7 @@ projects[token][version] = "1.5"
 
 projects[token_filter][version] = "1.1"
 
-projects[uuid][version] = "1.0-alpha4"
+projects[uuid][version] = "1.0-alpha5"
 
 projects[elements][version] = "1.4"
 
@@ -157,6 +157,8 @@ projects[colorbox][version] = "2.4"
 projects[views_php][version] = "1.x-dev"
 
 projects[webform][version] = "3.19"
+
+projects[better_formats][version] = "1.0-beta1"
 
 projects[webform_validation][version] = "1.2"
 
