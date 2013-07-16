@@ -165,8 +165,13 @@ projects[webform][version] = "3.19"
 
 projects[better_formats][version] = "1.0-beta1"
 
-projects[content_access][version] = "1.2-beta2"
-projects[content_access_rules][patch][] = "http://webapps.tbr.edu/drupal/patches/content_access_rules.patch"
+projects[content_access][type] = module
+projects[content_access][download][type] = git
+projects[content_access][download][branch] = master
+projects[content_access][download][url] = "https://github.com/matthewgann/content_access.git"
+
+//projects[content_access][version] = "1.2-beta2"
+//projects[content_access_rules][patch][] = "http://webapps.tbr.edu/drupal/patches/content_access_rules.patch"
 
 projects[webform_validation][version] = "1.2"
 
