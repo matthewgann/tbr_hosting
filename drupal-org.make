@@ -160,6 +160,8 @@ projects[webform][version] = "3.19"
 
 projects[better_formats][version] = "1.0-beta1"
 
+projects[content_access][version] = "1.2-beta2"
+
 projects[webform_validation][version] = "1.2"
 
 projects[workbench][version] = "1.2"
