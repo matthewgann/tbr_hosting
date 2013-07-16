@@ -39,6 +39,8 @@ projects[computed_field][version] = "1.0-beta1"
 
 projects[computed_field_tools][version] = "1.x-dev"
 
+projects[conditional_fields][version] = "3.x-dev"
+
 projects[contextual-flyout-links][version] = "1.2"
 
 projects[date][version] = "2.6"
@@ -76,6 +78,9 @@ projects[file_entity][version] = "2.x-dev"
 projects[form_builder][version] = "1.4"
 
 projects[gss][version] = "1.9"
+
+projects[google_cse][version] = "1.x-dev"
+projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
 projects[imageapi][version] = "1.x-dev"
 
