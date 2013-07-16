@@ -166,6 +166,7 @@ projects[webform][version] = "3.19"
 projects[better_formats][version] = "1.0-beta1"
 
 projects[content_access][version] = "1.2-beta2"
+projects[content_access][patch][] = ""http://webapps.tbr.edu/drupal/patches/content_access_rules.patch"
 
 projects[webform_validation][version] = "1.2"
 
