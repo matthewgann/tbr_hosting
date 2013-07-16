@@ -7,3 +7,4 @@ projects[drupal][type] = core
 projects[drupal][version] = 7.22
 
 ; CORE PATCHES
+projects[drupal][patch][] = "http://webapps.tbr.edu/drupal/patches/node-access-records-1146244-110.patch"
