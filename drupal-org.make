@@ -33,6 +33,8 @@ projects[breakpoints][version] = "1.1"
 
 projects[ctools][version] = "1.3"
 
+projects[redirect][version]= "1.x-dev"
+
 projects[calendar][version] = "3.4"
 
 projects[ckeditor_link][version] = "2.3"
