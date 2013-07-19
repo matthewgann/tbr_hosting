@@ -133,6 +133,10 @@ projects[publish_date][version] = "1.1"
 
 projects[references][version] = "2.1"
 
+projects[recaptcha][version] = "1.9"
+
+projects[captcha][version] = "1.0"
+
 projects[respondjs][version] = "1.2"
 
 projects[rules][version] = "2.3"
