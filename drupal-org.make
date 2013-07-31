@@ -14,12 +14,9 @@ projects[admin_menu_adminimal][download][type] = git
 projects[admin_menu_adminimal][download][branch] = master
 projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
-;projects[taxonomy_breadcrumb][type] = module
-;projects[taxonomy_breadcrumb][download][type] = git
-;projects[taxonomy_breadcrumb][download][branch] = master
-;projects[taxonomy_breadcrumb][download][url] = "https://github.com/matthewgann/taxonomy_breadcrumb.git"
-
 projects[path_breadcrumbs][version] = "3.0-beta3"
+
+projects[xmlsitemap][version] = "2.0-rc2"
 
 projects[util][version] = "1.0-rc1"
 
