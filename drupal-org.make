@@ -75,7 +75,7 @@ projects[feeds][version] = "2.0-alpha8"
 projects[field_collection][version] = "1.x-dev"
 
 projects[file_entity][version] = "2.x-dev"
-;projects[file_entity][patch][] = "http://webapps.tbr.edu/drupal/patches/allow-anonymous-private-file-access-2031919-1.patch"
+projects[file_entity][patch][] = "http://webapps.tbr.edu/drupal/patches/allow-anonymous-private-file-access-2031919-1.patch"
 
 projects[form_builder][version] = "1.4"
 
