@@ -117,6 +117,12 @@ projects[tbr_salaries][download][type] = git
 projects[tbr_salaries][download][branch] = master
 projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
 
+projects[login_terms_and_conditions][subdir] = tbr
+projects[login_terms_and_conditions][type] = module
+projects[login_terms_and_conditions][download][type] = git
+projects[login_terms_and_conditions][download][branch] = master
+projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
+
 projects[tbr_showsummary][subdir] = tbr
 projects[tbr_showsummary][type] = module
 projects[tbr_showsummary][download][type] = git
