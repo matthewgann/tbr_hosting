@@ -16,6 +16,8 @@ projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/
 
 projects[path_breadcrumbs][version] = "3.0-beta3"
 
+projects[config_perms][version] = "2.x-dev"
+
 projects[xmlsitemap][version] = "2.0-rc2"
 
 projects[util][version] = "1.0-rc1"
