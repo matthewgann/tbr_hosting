@@ -14,7 +14,7 @@ projects[admin_menu_adminimal][download][type] = git
 projects[admin_menu_adminimal][download][branch] = master
 projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
-projects[path_breadcrumbs][version] = "3.0-beta3"
+projects[path_breadcrumbs][version] = "3.0-beta4"
 
 projects[node_revision_delete][version] = "1.1"
 
@@ -79,7 +79,6 @@ projects[feeds][version] = "2.0-alpha8"
 projects[field_collection][version] = "1.x-dev"
 
 projects[file_entity][version] = "2.x-dev"
-projects[file_entity][patch][] = "http://webapps.tbr.edu/drupal/patches/allow-anonymous-private-file-access-2031919-1.patch"
 
 projects[form_builder][version] = "1.4"
 
@@ -129,7 +128,7 @@ projects[tbr_showsummary][download][type] = git
 projects[tbr_showsummary][download][branch] = master
 projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 
 projects[multiform][version] = "1.0"
 
@@ -209,6 +208,11 @@ projects[tbr_bootstrap][type] = theme
 projects[tbr_bootstrap][download][type] = git
 projects[tbr_bootstrap][download][branch] = master
 projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
+
+projects[tbr_meetings_mat][type] = theme
+projects[tbr_meetings_mat][download][type] = git
+projects[tbr_meetings_mat][download][branch] = master
+projects[tbr_meetings_mat][download][url] = "https://github.com/matthewgann/tbr_meetings_mat.git"
 
 ; Libraries
 libraries[markitup][download][type] = "get"
