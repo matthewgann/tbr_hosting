@@ -122,6 +122,12 @@ projects[login_terms_and_conditions][download][type] = git
 projects[login_terms_and_conditions][download][branch] = master
 projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
 
+projects[tbr_meeting_materials][subdir] = tbr
+projects[tbr_meeting_materials][type] = module
+projects[tbr_meeting_materials][download][type] = git
+projects[tbr_meeting_materials][download][branch] = master
+projects[tbr_meeting_materials][download][url] = "https://github.com/matthewgann/tbr_meeting_materials.git"
+
 projects[tbr_showsummary][subdir] = tbr
 projects[tbr_showsummary][type] = module
 projects[tbr_showsummary][download][type] = git
