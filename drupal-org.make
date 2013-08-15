@@ -64,7 +64,7 @@ projects[edit_profile][version] = "1.0-beta2"
 
 projects[email][version] = "1.2"
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 
 projects[entity_autocomplete][version] = "1.0-beta3"
 
