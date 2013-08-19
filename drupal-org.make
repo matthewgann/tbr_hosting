@@ -94,6 +94,7 @@ projects[job_scheduler][version] = "2.x-dev"
 projects[ldap][version] = "2.0-beta5"
 ; Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
+projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 
 projects[libraries][version] = "2.1"
