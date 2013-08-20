@@ -20,6 +20,8 @@ projects[node_revision_delete][version] = "1.1"
 
 projects[config_perms][version] = "2.x-dev"
 
+projects[field_permissions][version] = "1.x-dev"
+
 projects[xmlsitemap][version] = "2.0-rc2"
 
 projects[util][version] = "1.0-rc1"
