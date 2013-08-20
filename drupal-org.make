@@ -1,30 +1,9 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.22"
-
-projects[field_group][version] = "1.x-dev"
-
-projects[views_bulk_operations][version] = "3.1"
+projects[drupal][version] = "7.23"
 
 projects[admin_menu][version] = "3.0-rc4"
-
-projects[admin_menu_adminimal][type] = module
-projects[admin_menu_adminimal][download][type] = git
-projects[admin_menu_adminimal][download][branch] = master
-projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
-
-projects[path_breadcrumbs][version] = "3.0-beta4"
-
-projects[node_revision_delete][version] = "1.1"
-
-projects[config_perms][version] = "2.x-dev"
-
-projects[field_permissions][version] = "1.x-dev"
-
-projects[xmlsitemap][version] = "2.0-rc2"
-
-projects[util][version] = "1.0-rc1"
 
 projects[advanced_help][version] = "1.0"
 
@@ -36,11 +15,15 @@ projects[breakpoints][version] = "1.1"
 
 projects[ctools][version] = "1.3"
 
-projects[redirect][version]= "1.x-dev"
-
 projects[calendar][version] = "3.4"
 
+projects[captcha][version] = "1.0"
+
+projects[ckeditor][version] = "1.13"
+
 projects[ckeditor_link][version] = "2.3"
+
+projects[colorbox][version] = "2.4"
 
 projects[computed_field][version] = "1.0-beta1"
 
@@ -48,7 +31,11 @@ projects[computed_field_tools][version] = "1.x-dev"
 
 projects[conditional_fields][version] = "3.x-dev"
 
+projects[content_access][version] = "1.2-beta2"
+
 projects[contextual-flyout-links][version] = "1.2"
+
+projects[config_perms][version] = "2.x-dev"
 
 projects[date][version] = "2.6"
 
@@ -72,15 +59,19 @@ projects[entity_autocomplete][version] = "1.0-beta3"
 
 projects[entitycache][version] = "1.1"
 
-projects[extlink][version] = "1.12"
+projects[extlink][version] = "1.13"
 
-projects[features][version] = "2.0-rc1"
+projects[features][version] = "2.0-rc2"
 
 projects[feeds][version] = "2.0-alpha8"
 
 projects[field_collection][version] = "1.x-dev"
 
+projects[field_group][version] = "1.x-dev"
+
 projects[file_entity][version] = "2.x-dev"
+
+projects[field_permissions][version] = "1.x-dev"
 
 projects[form_builder][version] = "1.4"
 
@@ -98,14 +89,11 @@ projects[ldap][version] = "2.0-beta5"
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
-
 projects[libraries][version] = "2.1"
 
 projects[link][version] = "1.1"
 
-projects[media][version] = "2.x-dev"
-
-projects[oembed][version] = "0.1-beta3"
+projects[media][version] = "2.0-alpha2"
 
 projects[media_youtube][version] = "2.0-rc3"
 
@@ -113,41 +101,23 @@ projects[media_youtube][version] = "2.0-rc3"
 
 projects[menu_block][version] = "2.3"
 
-projects[tbr_salaries][subdir] = tbr
-projects[tbr_salaries][type] = module
-projects[tbr_salaries][download][type] = git
-projects[tbr_salaries][download][branch] = master
-projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
-
-projects[login_terms_and_conditions][subdir] = tbr
-projects[login_terms_and_conditions][type] = module
-projects[login_terms_and_conditions][download][type] = git
-projects[login_terms_and_conditions][download][branch] = master
-projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
-
-projects[tbr_meeting_materials][subdir] = tbr
-projects[tbr_meeting_materials][type] = module
-projects[tbr_meeting_materials][download][type] = git
-projects[tbr_meeting_materials][download][branch] = master
-projects[tbr_meeting_materials][download][url] = "https://github.com/matthewgann/tbr_meeting_materials.git"
-
-projects[tbr_showsummary][subdir] = tbr
-projects[tbr_showsummary][type] = module
-projects[tbr_showsummary][download][type] = git
-projects[tbr_showsummary][download][branch] = master
-projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
-
 projects[module_filter][version] = "1.8"
 
 projects[multiform][version] = "1.0"
 
 projects[node_export][version] = "3.0"
 
+projects[node_revision_delete][version] = "1.1"
+
+projects[oembed][version] = "0.1-beta3"
+
 projects[options_element][version] = "1.9"
 
 projects[panels][version] = "3.3"
 
-projects[pathauto][version] = "1.x-dev"
+projects[pathauto][version] = "1.2"
+
+projects[path_breadcrumbs][version] = "3.0-beta4"
 
 projects[publish_date][version] = "1.1"
 
@@ -155,7 +125,7 @@ projects[references][version] = "2.1"
 
 projects[recaptcha][version] = "1.9"
 
-projects[captcha][version] = "1.0"
+projects[redirect][version]= "1.x-dev"
 
 projects[respondjs][version] = "1.2"
 
@@ -181,18 +151,15 @@ projects[views][version] = "3.7"
 
 projects[views_boxes][version] = "1.0-beta8"
 
-projects[views_load_more][version] = "1.1"
+projects[views_bulk_operations][version] = "3.1"
 
-projects[colorbox][version] = "2.4"
+projects[views_load_more][version] = "1.1"
 
 projects[views_php][version] = "1.x-dev"
 
 projects[webform][version] = "3.19"
 
 projects[better_formats][version] = "1.0-beta1"
-
-projects[content_access][version] = "1.2-beta2"
-//projects[content_access_rules][patch][] = "http://webapps.tbr.edu/drupal/patches/content_access_rules.patch"
 
 projects[webform_validation][version] = "1.2"
 
@@ -202,8 +169,39 @@ projects[workbench_access][version] = "1.2"
 
 projects[workbench_moderation][version] = "1.3"
 
-;projects[wysiwyg][version] = "2.x-dev"
-projects[ckeditor][version] = "1.13"
+projects[xmlsitemap][version] = "2.0-rc2"
+
+projects[util][version] = "1.0-rc1"
+
+; TBR Modules
+projects[tbr_salaries][subdir] = tbr
+projects[tbr_salaries][type] = module
+projects[tbr_salaries][download][type] = git
+projects[tbr_salaries][download][branch] = master
+projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
+
+projects[tbr_meeting_materials][subdir] = tbr
+projects[tbr_meeting_materials][type] = module
+projects[tbr_meeting_materials][download][type] = git
+projects[tbr_meeting_materials][download][branch] = master
+projects[tbr_meeting_materials][download][url] = "https://github.com/matthewgann/tbr_meeting_materials.git"
+
+projects[tbr_showsummary][subdir] = tbr
+projects[tbr_showsummary][type] = module
+projects[tbr_showsummary][download][type] = git
+projects[tbr_showsummary][download][branch] = master
+projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
+
+projects[login_terms_and_conditions][subdir] = tbr
+projects[login_terms_and_conditions][type] = module
+projects[login_terms_and_conditions][download][type] = git
+projects[login_terms_and_conditions][download][branch] = master
+projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
+
+projects[admin_menu_adminimal][type] = module
+projects[admin_menu_adminimal][download][type] = git
+projects[admin_menu_adminimal][download][branch] = master
+projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
