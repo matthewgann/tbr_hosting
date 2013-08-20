@@ -180,6 +180,12 @@ projects[tbr_salaries][download][type] = git
 projects[tbr_salaries][download][branch] = master
 projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
 
+projects[comment_attachment][subdir] = tbr
+projects[comment_attachment[type] = module
+projects[comment_attachment][download][type] = git
+projects[comment_attachment][download][branch] = master
+projects[comment_attachment][download][url] = "https://github.com/matthewgann/comment_attachment.git"
+
 projects[tbr_meeting_materials][subdir] = tbr
 projects[tbr_meeting_materials][type] = module
 projects[tbr_meeting_materials][download][type] = git
