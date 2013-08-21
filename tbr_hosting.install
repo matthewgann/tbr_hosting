@@ -140,9 +140,6 @@ function tbr_hosting_install() {
   }
   $query->execute();
 
-  $query2 = db_query("INSERT INTO ldap_servers VALUES ('tbr_auth_06', '2', 'TBR Auth 06', '1', 'default', 'tbrdc06.bna.tbr.state.tn.us', '389', '0', '0', '1', 'nis_ldap', '', 'a:1:{i:0;s:34:\"DC=bna,DC=tbr,DC=state,DC=tn,DC=us\";}', 'samaccountname', '', 'mail', '', '', '', '0', '', '', 'smason', 'CN=Sonja Mason,OU=Users,OU=Chancellor,OU=Departments,DC=bna,DC=tbr,DC=state,DC=tn,DC=us', '1', '', '0', '0', '', '', '', '0', '', '', '', '0', '1000', '0')");
-  $query2->execute();
-
   // Insert default pre-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
   // documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
