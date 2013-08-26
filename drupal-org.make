@@ -203,6 +203,11 @@ projects[admin_menu_adminimal][download][type] = git
 projects[admin_menu_adminimal][download][branch] = master
 projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
+projects[rules_diff][type] = module
+projects[rules_diff][download][type] = git
+projects[rules_diff][download][branch] = master
+projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
+
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
 
