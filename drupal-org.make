@@ -44,10 +44,11 @@ projects[devel][version] = "1.3"
 projects[diff][version] = "3.2"
 
 projects[download_file][version] = "1.1"
+projects[download_file][patch][] = "http://webapps.tbr.edu/drupal/patches/file_download-ssl-headers.patch"
 
 projects[draggableviews][version] = "2.0"
 
-projects[ds][version] = "2.4"
+projects[ds][version] = "2.6"
 
 projects[edit_profile][version] = "1.0-beta2"
 
@@ -61,21 +62,19 @@ projects[entitycache][version] = "1.1"
 
 projects[extlink][version] = "1.13"
 
-projects[features][version] = "2.0-rc2"
+projects[features][version] = "2.0-rc3"
 
 projects[feeds][version] = "2.0-alpha8"
 
 projects[field_collection][version] = "1.x-dev"
 
-projects[field_group][version] = "1.x-dev"
+projects[field_group][version] = "1.2"
 
 projects[file_entity][version] = "2.x-dev"
 
 projects[field_permissions][version] = "1.x-dev"
 
 projects[form_builder][version] = "1.4"
-
-projects[gss][version] = "1.9"
 
 projects[google_cse][version] = "1.x-dev"
 projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
@@ -93,6 +92,8 @@ projects[libraries][version] = "2.1"
 
 projects[link][version] = "1.1"
 
+projects[mailsystem][version] = "2.34"
+
 projects[media][version] = "2.0-alpha2"
 
 projects[media_youtube][version] = "2.0-rc3"
@@ -100,6 +101,8 @@ projects[media_youtube][version] = "2.0-rc3"
 ;projects[memcache][version] = "1.0"
 
 projects[menu_block][version] = "2.3"
+
+projects[mimemail][version] = "1.x-dev"
 
 projects[module_filter][version] = "1.8"
 
@@ -149,6 +152,8 @@ projects[elements][version] = "1.4"
 
 projects[views][version] = "3.7"
 
+projects[views_bootstrap][version] = "2.x-dev"
+
 projects[views_boxes][version] = "1.0-beta8"
 
 projects[views_bulk_operations][version] = "3.1"
@@ -161,7 +166,7 @@ projects[webform][version] = "3.19"
 
 projects[better_formats][version] = "1.0-beta1"
 
-projects[webform_validation][version] = "1.2"
+projects[webform_validation][version] = "1.3"
 
 projects[workbench][version] = "1.2"
 
