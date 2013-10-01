@@ -4,7 +4,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function tbr_hosting_install() {
+function tcpra_hosting_install() {
   theme_enable(array('tbr_bootstrap'));
   variable_set('theme_default', 'tbr_bootstrap');
 
@@ -19,7 +19,7 @@ function tbr_hosting_install() {
         'weight' => 1,
         'status' => 1,
         'settings' => array(
-          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <br> <p> <img> <pre>',
+          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <br> <p> <img> <pre><h3><h4><h5><table><tr><td><th><thead><tbody>',
         ),
       ),
       // Caption filter.
@@ -58,7 +58,7 @@ function tbr_hosting_install() {
     filter_format_save($full_html_format);
 
 
-  // Enable some tbr_hosting blocks.
+  // Enable some tcpra_hosting blocks.
   $default_theme = variable_get('theme_default', 'tbr_bootstrap');
   $admin_theme = 'adminimal_theme';
 
