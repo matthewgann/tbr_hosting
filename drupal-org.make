@@ -43,6 +43,9 @@ projects[devel][version] = "1.3"
 
 projects[diff][version] = "3.2"
 
+projects[download_file][version] = "1.1"
+projects[download_file][patch][] = "http://webapps.tbr.edu/drupal/patches/file_download-ssl-headers.patch"
+
 projects[draggableviews][version] = "2.0"
 
 projects[ds][version] = "2.6"
@@ -79,6 +82,11 @@ projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cs
 projects[imageapi][version] = "1.x-dev"
 
 projects[job_scheduler][version] = "2.x-dev"
+
+projects[ldap][version] = "2.0-beta5"
+; Fixing mcrypt_generic_init Key size too large
+projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
+projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.1"
 
@@ -150,8 +158,6 @@ projects[views_boxes][version] = "1.0-beta8"
 
 projects[views_bulk_operations][version] = "3.1"
 
-projects[views_data_export][version] = "3.x-dev"
-
 projects[views_load_more][version] = "1.1"
 
 projects[views_php][version] = "1.x-dev"
@@ -172,6 +178,31 @@ projects[xmlsitemap][version] = "2.0-rc2"
 
 projects[util][version] = "1.0-rc1"
 
+; TBR Modules
+projects[tbr_salaries][subdir] = tbr
+projects[tbr_salaries][type] = module
+projects[tbr_salaries][download][type] = git
+projects[tbr_salaries][download][branch] = master
+projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
+
+projects[tbr_meeting_materials][subdir] = tbr
+projects[tbr_meeting_materials][type] = module
+projects[tbr_meeting_materials][download][type] = git
+projects[tbr_meeting_materials][download][branch] = master
+projects[tbr_meeting_materials][download][url] = "https://github.com/matthewgann/tbr_meeting_materials.git"
+
+projects[tbr_showsummary][subdir] = tbr
+projects[tbr_showsummary][type] = module
+projects[tbr_showsummary][download][type] = git
+projects[tbr_showsummary][download][branch] = master
+projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
+
+projects[login_terms_and_conditions][subdir] = tbr
+projects[login_terms_and_conditions][type] = module
+projects[login_terms_and_conditions][download][type] = git
+projects[login_terms_and_conditions][download][branch] = master
+projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
+
 projects[admin_menu_adminimal][type] = module
 projects[admin_menu_adminimal][download][type] = git
 projects[admin_menu_adminimal][download][branch] = master
@@ -190,10 +221,15 @@ projects[open_framework][type] = theme
 projects[open_framework][download][url] = "https://github.com/matthewgann/open_framework.git"
 projects[open_framework][directory_name] = "open_framework"
 
-projects[tcpra_bootstrap][type] = theme
-projects[tcpra_bootstrap][download][type] = git
-projects[tcpra_bootstrap][download][branch] = master
-projects[tcpra_bootstrap][download][url] = "https://github.com/matthewgann/tcpra_bootstrap.git"
+projects[tbr_bootstrap][type] = theme
+projects[tbr_bootstrap][download][type] = git
+projects[tbr_bootstrap][download][branch] = master
+projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
+
+projects[tbr_meetings_mat][type] = theme
+projects[tbr_meetings_mat][download][type] = git
+projects[tbr_meetings_mat][download][branch] = master
+projects[tbr_meetings_mat][download][url] = "https://github.com/matthewgann/tbr_meetings_mat.git"
 
 ; Libraries
 libraries[markitup][download][type] = "get"
