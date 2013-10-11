@@ -62,13 +62,13 @@ projects[entitycache][version] = "1.1"
 
 projects[extlink][version] = "1.13"
 
-projects[features][version] = "2.0-rc3"
+projects[features][version] = "2.0-rc5"
 
 projects[feeds][version] = "2.0-alpha8"
 
 projects[field_collection][version] = "1.x-dev"
 
-projects[field_group][version] = "1.2"
+projects[field_group][version] = "1.3"
 
 projects[file_entity][version] = "2.x-dev"
 
@@ -81,11 +81,13 @@ projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cs
 
 projects[imageapi][version] = "1.x-dev"
 
+projects[jquery_update][version] = "2.x-dev"
+
 projects[job_scheduler][version] = "2.x-dev"
 
-projects[ldap][version] = "2.0-beta5"
+projects[ldap][version] = "2.0-beta6"
 ; Fixing mcrypt_generic_init Key size too large
-projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
+; commited to project projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.1"
@@ -102,7 +104,7 @@ projects[media_youtube][version] = "2.0-rc3"
 
 projects[menu_block][version] = "2.3"
 
-projects[mimemail][version] = "1.x-dev"
+projects[menu_firstchild][version] = "1.x-dev"
 
 projects[module_filter][version] = "1.8"
 
@@ -132,7 +134,9 @@ projects[redirect][version]= "1.x-dev"
 
 projects[respondjs][version] = "1.2"
 
-projects[rules][version] = "2.3"
+projects[rules][version] = "2.5"
+
+projects[smtp][version] = "1.x-dev"
 
 projects[special_menu_items][version] = "2.0"
 
@@ -218,8 +222,9 @@ projects[adminimal_theme][version] = "1.x-dev"
 
 projects[open_framework][download][type] = "git"
 projects[open_framework][type] = theme
-projects[open_framework][download][url] = "https://github.com/matthewgann/open_framework.git"
+projects[open_framework][download][url] = "https://github.com/SU-SWS/open_framework.git"
 projects[open_framework][directory_name] = "open_framework"
+projects[open_framework][download][tag] = "7.x-2.06"
 
 projects[tbr_bootstrap][type] = theme
 projects[tbr_bootstrap][download][type] = git
