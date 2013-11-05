@@ -83,9 +83,8 @@ projects[jquery_update][version] = "2.x-dev"
 
 projects[job_scheduler][version] = "2.x-dev"
 
-projects[ldap][version] = "2.0-beta6"
+projects[ldap][version] = "2.x-dev"
 ; Fixing mcrypt_generic_init Key size too large
-; commited to project projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap_servers-fix-mycrpt-key.patch"
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.1"
@@ -221,6 +220,7 @@ projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff
 
 ; Themes
 projects[adminimal_theme][version] = "1.x-dev"
+projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
 projects[open_framework][type] = theme
