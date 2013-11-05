@@ -33,8 +33,6 @@ projects[conditional_fields][version] = "3.x-dev"
 
 projects[content_access][version] = "1.2-beta2"
 
-projects[contextual-flyout-links][version] = "1.2"
-
 projects[config_perms][version] = "2.x-dev"
 
 projects[date][version] = "2.6"
@@ -96,7 +94,7 @@ projects[link][version] = "1.1"
 
 projects[mailsystem][version] = "2.34"
 
-projects[media][version] = "2.0-alpha2"
+projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][version] = "2.0-rc3"
 
@@ -105,6 +103,8 @@ projects[media_youtube][version] = "2.0-rc3"
 projects[menu_block][version] = "2.3"
 
 projects[menu_firstchild][version] = "1.x-dev"
+
+projects[mimemail][version] = "1.0-beta1"
 
 projects[module_filter][version] = "1.8"
 
@@ -122,19 +122,21 @@ projects[panels][version] = "3.3"
 
 projects[pathauto][version] = "1.2"
 
-projects[path_breadcrumbs][version] = "3.0-beta4"
+projects[path_breadcrumbs][version] = "3.0-beta6"
 
 projects[publish_date][version] = "1.1"
 
 projects[references][version] = "2.1"
 
-projects[recaptcha][version] = "1.9"
+projects[recaptcha][version] = "1.10"
 
 projects[redirect][version]= "1.x-dev"
 
 projects[respondjs][version] = "1.2"
 
-projects[rules][version] = "2.5"
+[projects][rolereference][version] = "1.1"
+
+projects[rules][version] = "2.6"
 
 projects[smtp][version] = "1.x-dev"
 
@@ -264,7 +266,3 @@ libraries[respondjs][directory_name] = "respondjs"
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
-
-;libraries[backbone][download][type] = "git"
-;libraries[backbone][download][url] = "https://github.com/documentcloud/backbone.git"
-;libraries[backbone][download][directory_name] = "backbone"
