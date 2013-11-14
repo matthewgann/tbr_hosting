@@ -3,6 +3,8 @@
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
+ * TBR
+ *
  */
 function tbr_hosting_install() {
   theme_enable(array('tbr_bootstrap'));
