@@ -7,11 +7,9 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[advanced_help][version] = "1.0"
 
-projects[better_exposed_filters][version] = "3.0-beta3"
+projects[better_exposed_filters][version] = "3.0-dev"
 
 projects[boxes][version] = "1.1"
-
-projects[breakpoints][version] = "1.1"
 
 projects[ctools][version] = "1.3"
 
@@ -56,11 +54,11 @@ projects[entity][version] = "1.2"
 
 projects[entity_autocomplete][version] = "1.0-beta3"
 
-projects[entitycache][version] = "1.1"
+projects[entitycache][version] = "1.2"
 
 projects[extlink][version] = "1.13"
 
-projects[features][version] = "2.0-rc5"
+projects[features][version] = "2.0"
 
 projects[feeds][version] = "2.0-alpha8"
 
@@ -95,9 +93,9 @@ projects[mailsystem][version] = "2.34"
 
 projects[media][version] = "2.0-alpha3"
 
-projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][version] = "2.0-rc4"
 
-;projects[memcache][version] = "1.0"
+projects[memcache][version] = "1.x-dev"
 
 projects[menu_block][version] = "2.3"
 
