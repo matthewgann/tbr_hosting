@@ -4,7 +4,7 @@
  *
  * Perform actions to set up the site for this profile.
  *
- * Again - Test 5
+ * Again - Test 6
  */
 function tbr_hosting_install() {
   theme_enable(array('tbr_bootstrap'));
