@@ -7,7 +7,7 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[advanced_help][version] = "1.0"
 
-projects[better_exposed_filters][version] = "3.0-dev"
+projects[better_exposed_filters][version] = "3.x-dev"
 
 projects[boxes][version] = "1.1"
 
