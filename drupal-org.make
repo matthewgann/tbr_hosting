@@ -111,7 +111,7 @@ projects[node_export][version] = "3.0"
 
 projects[node_revision_delete][version] = "1.1"
 
-projects[oembed][version] = "1.x-dev"
+projects[oembed][version] = "0.1-beta3"
 
 projects[options_element][version] = "1.10"
 
