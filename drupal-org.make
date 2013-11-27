@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.23"
+projects[drupal][version] = "7.24"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -87,7 +87,7 @@ projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-
 
 projects[libraries][version] = "2.1"
 
-projects[link][version] = "1.1"
+projects[link][version] = "1.2"
 
 projects[mailsystem][version] = "2.34"
 
@@ -111,9 +111,9 @@ projects[node_export][version] = "3.0"
 
 projects[node_revision_delete][version] = "1.1"
 
-projects[oembed][version] = "0.1-beta3"
+projects[oembed][version] = "1.x-dev"
 
-projects[options_element][version] = "1.9"
+projects[options_element][version] = "1.10"
 
 projects[panels][version] = "3.3"
 
