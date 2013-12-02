@@ -5,6 +5,8 @@ projects[drupal][version] = "7.24"
 
 projects[admin_menu][version] = "3.0-rc4"
 
+projects[adminimal_admin_menu] = "1.x-dev"
+
 projects[advanced_help][version] = "1.0"
 
 projects[better_exposed_filters][version] = "3.x-dev"
@@ -205,11 +207,6 @@ projects[login_terms_and_conditions][type] = module
 projects[login_terms_and_conditions][download][type] = git
 projects[login_terms_and_conditions][download][branch] = master
 projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
-
-projects[admin_menu_adminimal][type] = module
-projects[admin_menu_adminimal][download][type] = git
-projects[admin_menu_adminimal][download][branch] = master
-projects[admin_menu_adminimal][download][url] = "https://github.com/matthewgann/admin_menu_adminimal.git"
 
 projects[rules_diff][type] = module
 projects[rules_diff][download][type] = git

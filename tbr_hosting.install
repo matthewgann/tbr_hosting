@@ -20,7 +20,7 @@ function tbr_hosting_install() {
         'weight' => 1,
         'status' => 1,
         'settings' => array(
-          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <br> <p> <img> <pre>',
+          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <br> <p> <img> <pre> <h3> <h4> <h5> <table> <tr> <td> <th> <thead> <tbody>',
         ),
       ),
       // Caption filter.
