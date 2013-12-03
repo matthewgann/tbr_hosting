@@ -11,6 +11,8 @@ projects[advanced_help][version] = "1.0"
 
 projects[better_exposed_filters][version] = "3.x-dev"
 
+projects[better_formats][version] = "1.0-beta1"
+
 projects[boxes][version] = "1.1"
 
 projects[ctools][version] = "1.3"
@@ -105,7 +107,7 @@ projects[menu_firstchild][version] = "1.x-dev"
 
 projects[mimemail][version] = "1.0-beta1"
 
-projects[module_filter][version] = "1.8"
+projects[module_filter][version] = "2.0-alpha1"
 
 projects[multiform][version] = "1.0"
 
@@ -167,11 +169,9 @@ projects[views_load_more][version] = "1.1"
 
 projects[views_php][version] = "1.x-dev"
 
-projects[webform][version] = "3.19"
+projects[webform][version] = "4.x-dev"
 
-projects[better_formats][version] = "1.0-beta1"
-
-projects[webform_validation][version] = "1.3"
+projects[webform_validation][version] = "1.x-dev"
 
 projects[workbench][version] = "1.2"
 
