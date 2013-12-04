@@ -82,7 +82,7 @@ projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cs
 projects[imageapi][version] = "1.x-dev"
 
 projects[jquery_update][version] = "2.x-dev"
-projects[jquery_update][patch][] = "https://drupal.org/files/jquery_update-1548028-25-default-jquery.patch"
+projects[jquery_update][patch][] = "http://webapps.tbr.edu/drupal/patches/jquery_update-1548028-25-default-jquery.patch"
 
 projects[job_scheduler][version] = "2.x-dev"
 
@@ -171,7 +171,7 @@ projects[views_load_more][version] = "1.1"
 projects[views_php][version] = "1.x-dev"
 
 projects[webform][version] = "4.x-dev"
-projects[webform][patch][] = "https://drupal.org/files/issues/webform-insert_nid-2119193-4.patch"
+projects[webform][patch][] = "http://webapps.tbr.edu/drupal/patches/webform-insert_nid-2119193-4.patch"
 
 projects[webform_validation][version] = "1.x-dev"
 
