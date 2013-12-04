@@ -82,6 +82,7 @@ projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cs
 projects[imageapi][version] = "1.x-dev"
 
 projects[jquery_update][version] = "2.x-dev"
+projects[jquery_update][patch][] = "https://drupal.org/files/jquery_update-1548028-25-default-jquery.patch"
 
 projects[job_scheduler][version] = "2.x-dev"
 
