@@ -171,6 +171,7 @@ projects[views_load_more][version] = "1.1"
 projects[views_php][version] = "1.x-dev"
 
 projects[webform][version] = "4.x-dev"
+projects[webform][patch][] = "https://drupal.org/files/issues/webform-insert_nid-2119193-4.patch"
 
 projects[webform_validation][version] = "1.x-dev"
 
