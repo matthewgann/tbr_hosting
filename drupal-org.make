@@ -7,11 +7,11 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[adminimal_admin_menu] = "1.x-dev"
 
-projects[advanced_help][version] = "1.0"
+projects[advanced_help][version] = "1.1"
 
 projects[better_exposed_filters][version] = "3.x-dev"
 
-projects[better_formats][version] = "1.0-beta1"
+projects[better_formats][version] = "1.x-dev"
 
 projects[boxes][version] = "1.1"
 
@@ -25,9 +25,9 @@ projects[ckeditor][version] = "1.13"
 
 projects[ckeditor_link][version] = "2.3"
 
-projects[colorbox][version] = "2.4"
+projects[colorbox][version] = "2.5"
 
-projects[computed_field][version] = "1.0-beta1"
+projects[computed_field][version] = "1.0"
 
 projects[computed_field_tools][version] = "1.x-dev"
 
@@ -60,7 +60,9 @@ projects[entity_autocomplete][version] = "1.0-beta3"
 
 projects[entitycache][version] = "1.2"
 
-projects[extlink][version] = "1.13"
+projects[extlink][version] = "1.x-dev"
+
+projects[extlink_extra][version] = "1.x-dev"
 
 projects[features][version] = "2.0"
 
@@ -74,10 +76,10 @@ projects[file_entity][version] = "2.x-dev"
 
 projects[field_permissions][version] = "1.x-dev"
 
-projects[form_builder][version] = "1.4"
-
 projects[google_cse][version] = "1.x-dev"
 projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
+
+projects[honeypot][version] = "1.15"
 
 projects[imageapi][version] = "1.x-dev"
 
@@ -108,7 +110,7 @@ projects[menu_firstchild][version] = "1.x-dev"
 
 projects[mimemail][version] = "1.0-beta1"
 
-projects[module_filter][version] = "2.0-alpha1"
+projects[module_filter][version] = "2.0-alpha2"
 
 projects[multiform][version] = "1.0"
 
@@ -166,7 +168,7 @@ projects[views_boxes][version] = "1.0-beta8"
 
 projects[views_bulk_operations][version] = "3.1"
 
-projects[views_load_more][version] = "1.1"
+projects[views_load_more][version] = "1.2"
 
 projects[views_php][version] = "1.x-dev"
 
