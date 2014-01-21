@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.24"
+projects[drupal][version] = "7.26"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -37,7 +37,7 @@ projects[content_access][version] = "1.2-beta2"
 
 projects[config_perms][version] = "2.x-dev"
 
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 
 projects[devel][version] = "1.3"
 
@@ -54,7 +54,7 @@ projects[edit_profile][version] = "1.0-beta2"
 
 projects[email][version] = "1.2"
 
-projects[entity][version] = "1.2"
+projects[entity][version] = "1.3"
 
 projects[entity_autocomplete][version] = "1.0-beta3"
 
@@ -79,7 +79,7 @@ projects[field_permissions][version] = "1.x-dev"
 projects[google_cse][version] = "1.x-dev"
 projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
-projects[honeypot][version] = "1.15"
+projects[honeypot][version] = "1.16"
 
 projects[imageapi][version] = "1.x-dev"
 
@@ -88,11 +88,11 @@ projects[jquery_update][patch][] = "http://webapps.tbr.edu/drupal/patches/jquery
 
 projects[job_scheduler][version] = "2.x-dev"
 
-projects[ldap][version] = "2.x-dev"
+projects[ldap][version] = "2.0-beta8"
 ; Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.
 
 projects[link][version] = "1.2"
 
@@ -102,7 +102,7 @@ projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][version] = "2.0-rc4"
 
-projects[memcache][version] = "1.x-dev"
+projects[memcache][version] = "1.1-beta1"
 
 projects[menu_block][version] = "2.3"
 
@@ -126,7 +126,7 @@ projects[panels][version] = "3.3"
 
 projects[pathauto][version] = "1.2"
 
-projects[path_breadcrumbs][version] = "3.0-beta6"
+projects[path_breadcrumbs][version] = "3.0-beta7"
 
 projects[publish_date][version] = "1.1"
 
@@ -166,7 +166,7 @@ projects[views_bootstrap][version] = "2.x-dev"
 
 projects[views_boxes][version] = "1.0-beta8"
 
-projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][version] = "3.2"
 
 projects[views_load_more][version] = "1.2"
 
@@ -251,7 +251,7 @@ libraries[plupload][download][url] = "http://webapps.tbr.edu/drupal/plupload.zip
 libraries[plupload][directory_name] = "plupload"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://webapps.tbr.edu/drupal/ckeditor.zip"
+libraries[ckeditor][download][url] = "http://webapps.tbr.edu/drupal/ckeditor_4.3.2_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[jquery.cycle][download][type] = "get"
