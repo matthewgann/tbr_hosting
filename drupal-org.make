@@ -92,7 +92,7 @@ projects[ldap][version] = "2.0-beta8"
 ; Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
-projects[libraries][version] = "2.
+projects[libraries][version] = "2.x-dev"
 
 projects[link][version] = "1.2"
 
