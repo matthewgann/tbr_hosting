@@ -5,7 +5,7 @@ projects[drupal][version] = "7.26"
 
 projects[admin_menu][version] = "3.0-rc4"
 
-projects[adminimal_admin_menu] = "1.x-dev"
+projects[adminimal_admin_menu] = "1.5"
 
 projects[advanced_help][version] = "1.1"
 
@@ -39,7 +39,7 @@ projects[config_perms][version] = "2.x-dev"
 
 projects[date][version] = "2.7"
 
-projects[devel][version] = "1.3"
+projects[devel][version] = "1.4"
 
 projects[diff][version] = "3.2"
 
@@ -68,6 +68,8 @@ projects[features][version] = "2.0"
 
 projects[feeds][version] = "2.0-alpha8"
 
+projects[feeds_xpathparser][version] = "1.0-beta4"
+
 projects[field_collection][version] = "1.x-dev"
 
 projects[field_group][version] = "1.3"
@@ -92,7 +94,7 @@ projects[ldap][version] = "2.0-beta8"
 ; Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
-projects[libraries][version] = "2.x-dev"
+projects[libraries][version] = "2.2"
 
 projects[link][version] = "1.2"
 
@@ -126,21 +128,23 @@ projects[panels][version] = "3.3"
 
 projects[pathauto][version] = "1.2"
 
-projects[path_breadcrumbs][version] = "3.0-beta7"
-
-projects[publish_date][version] = "1.1"
+projects[path_breadcrumbs][version] = "3.0-rc1"
 
 projects[references][version] = "2.1"
 
-projects[recaptcha][version] = "1.10"
+projects[recaptcha][version] = "1.11"
 
 projects[redirect][version]= "1.x-dev"
 
 projects[respondjs][version] = "1.2"
 
-[projects][rolereference][version] = "1.1"
+projects[rolereference][version] = "1.1"
+
+prjects[rss_enclosure][version] = "1.2-dev"
 
 projects[rules][version] = "2.6"
+
+projects[scheduler][version] = "1.2"
 
 projects[smtp][version] = "1.x-dev"
 
@@ -185,7 +189,7 @@ projects[workbench_moderation][version] = "1.3"
 
 projects[xmlsitemap][version] = "2.0-rc2"
 
-projects[util][version] = "1.0-rc1"
+projects[util][version] = "1.0-rc2"
 
 ; TBR Modules
 projects[tbr_salaries][subdir] = tbr
