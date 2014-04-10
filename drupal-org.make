@@ -11,7 +11,7 @@ projects[advanced_help][version] = "1.1"
 
 projects[addressfield][version] = "1.0-beta5"
 
-projects[better_exposed_filters][version] = "3.x-beta4"
+projects[better_exposed_filters][version] = "3.0-beta4"
 
 projects[better_formats][version] = "1.x-dev"
 
