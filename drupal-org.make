@@ -9,13 +9,15 @@ projects[adminimal_admin_menu] = "1.5"
 
 projects[advanced_help][version] = "1.1"
 
-projects[better_exposed_filters][version] = "3.x-dev"
+projects[addressfield][version] = "1.0-beta5"
+
+projects[better_exposed_filters][version] = "3.x-beta4"
 
 projects[better_formats][version] = "1.x-dev"
 
 projects[boxes][version] = "1.1"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 projects[calendar][version] = "3.4"
 
@@ -29,7 +31,7 @@ projects[colorbox][version] = "2.5"
 
 projects[computed_field][version] = "1.0"
 
-projects[computed_field_tools][version] = "1.x-dev"
+projects[computed_field_tools][version] = "1.0"
 
 projects[conditional_fields][version] = "3.x-dev"
 
@@ -43,18 +45,15 @@ projects[devel][version] = "1.4"
 
 projects[diff][version] = "3.2"
 
-projects[download_file][version] = "1.1"
-projects[download_file][patch][] = "http://webapps.tbr.edu/drupal/patches/file_download-ssl-headers.patch"
-
 projects[draggableviews][version] = "2.0"
 
 projects[ds][version] = "2.6"
 
 projects[edit_profile][version] = "1.0-beta2"
 
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.5"
 
 projects[entity_autocomplete][version] = "1.0-beta3"
 
@@ -70,7 +69,7 @@ projects[feeds][version] = "2.0-alpha8"
 
 projects[feeds_xpathparser][version] = "1.0-beta4"
 
-projects[field_collection][version] = "1.x-dev"
+projects[field_collection][version] = "1.0-beta7"
 
 projects[field_group][version] = "1.3"
 
@@ -85,8 +84,7 @@ projects[honeypot][version] = "1.16"
 
 projects[imageapi][version] = "1.x-dev"
 
-projects[jquery_update][version] = "2.x-dev"
-projects[jquery_update][patch][] = "http://webapps.tbr.edu/drupal/patches/jquery_update-1548028-25-default-jquery.patch"
+projects[jquery_update][version] = "2.4"
 
 projects[job_scheduler][version] = "2.x-dev"
 
@@ -104,13 +102,13 @@ projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][version] = "2.0-rc4"
 
-projects[memcache][version] = "1.1-beta1"
+projects[memcache][version] = "1.1-beta5"
 
 projects[menu_block][version] = "2.3"
 
 projects[menu_firstchild][version] = "1.x-dev"
 
-projects[mimemail][version] = "1.0-beta1"
+projects[mimemail][version] = "1.0-beta3"
 
 projects[module_filter][version] = "2.0-alpha2"
 
@@ -124,11 +122,13 @@ projects[oembed][version] = "0.1-beta3"
 
 projects[options_element][version] = "1.10"
 
-projects[panels][version] = "3.3"
+projects[panels][version] = "3.4"
 
 projects[pathauto][version] = "1.2"
 
-projects[path_breadcrumbs][version] = "3.0-rc1"
+projects[path_breadcrumbs][version] = "3.0-rc2"
+
+projects[phone][version] = "1.0-beta1"
 
 projects[references][version] = "2.1"
 
@@ -136,7 +136,7 @@ projects[recaptcha][version] = "1.11"
 
 projects[redirect][version]= "1.x-dev"
 
-projects[respondjs][version] = "1.2"
+projects[respondjs][version] = "1.3"
 
 projects[rolereference][version] = "1.1"
 
@@ -174,20 +174,19 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[views_load_more][version] = "1.2"
 
-projects[views_php][version] = "1.x-dev"
+projects[views_php][version] = "1.0-alpha1"
 
-projects[webform][version] = "4.x-dev"
-projects[webform][patch][] = "http://webapps.tbr.edu/drupal/patches/webform-insert_nid-2119193-4.patch"
+projects[webform][version] = "4.0-beta3"
 
-projects[webform_validation][version] = "1.x-dev"
+projects[webform_validation][version] = "1.5"
 
 projects[workbench][version] = "1.2"
 
-projects[workbench_access][version] = "1.2"
+projects[workbench_access][version] = "1.x-dev"
 
 projects[workbench_moderation][version] = "1.3"
 
-projects[xmlsitemap][version] = "2.0-rc2"
+projects[xmlsitemap][version] = "2.0"
 
 projects[util][version] = "1.0-rc2"
 
@@ -197,6 +196,12 @@ projects[tbr_salaries][type] = module
 projects[tbr_salaries][download][type] = git
 projects[tbr_salaries][download][branch] = master
 projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
+
+projects[tbr_webform_options][subdir] = tbr
+projects[tbr_webform_options][type] = module
+projects[tbr_webform_options][download][type] = git
+projects[tbr_webform_options][download][branch] = master
+projects[tbr_webform_options][download][url] = "https://github.com/matthewgann/tbr_webform_options.git"
 
 projects[tbr_meeting_materials][subdir] = tbr
 projects[tbr_meeting_materials][type] = module
@@ -222,7 +227,7 @@ projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
 ; Themes
-projects[adminimal_theme][version] = "1.x-dev"
+projects[adminimal_theme][version] = "1.3"
 projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
@@ -233,7 +238,7 @@ projects[open_framework][download][tag] = "7.x-2.06"
 
 projects[tbr_bootstrap][type] = theme
 projects[tbr_bootstrap][download][type] = git
-projects[tbr_bootstrap][download][branch] = master
+projects[tbr_bootstrap][download][branch] = mafster
 projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
 
 projects[tbr_meetings_mat][type] = theme
