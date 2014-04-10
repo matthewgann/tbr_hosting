@@ -70,7 +70,7 @@ projects[feeds][version] = "2.0-alpha8"
 projects[feeds_xpathparser][version] = "1.0-beta4"
 
 projects[field_collection][version] = "1.0-beta7"
-projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/field_collection-beta5-beta7-upgrade-2221407-17.patch"
+projects[field_collection][patch][] = "http://webapps.tbr.edu/drupal/patches/field_collection-beta5-beta7-upgrade-2221407-17.patch"
 
 projects[field_group][version] = "1.3"
 
