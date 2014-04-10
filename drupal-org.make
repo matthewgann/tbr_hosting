@@ -201,7 +201,7 @@ projects[tbr_webform_options][subdir] = tbr
 projects[tbr_webform_options][type] = module
 projects[tbr_webform_options][download][type] = git
 projects[tbr_webform_options][download][branch] = master
-projects[tbr_webform_options][download][url] = "https://github.com/matthewgann/tbr_webform_options.git"
+projects[tbr_webform_options][download][url] = "https://github.com/tnregents/tbr_webform_options.git"
 
 projects[tbr_meeting_materials][subdir] = tbr
 projects[tbr_meeting_materials][type] = module
@@ -238,7 +238,7 @@ projects[open_framework][download][tag] = "7.x-2.06"
 
 projects[tbr_bootstrap][type] = theme
 projects[tbr_bootstrap][download][type] = git
-projects[tbr_bootstrap][download][branch] = mafster
+projects[tbr_bootstrap][download][branch] = master
 projects[tbr_bootstrap][download][url] = "https://github.com/matthewgann/tbr_bootstrap.git"
 
 projects[tbr_meetings_mat][type] = theme
