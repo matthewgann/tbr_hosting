@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.26"
+projects[drupal][version] = "7.27"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -59,7 +59,7 @@ projects[entity_autocomplete][version] = "1.0-beta3"
 
 projects[entitycache][version] = "1.2"
 
-projects[extlink][version] = "1.x-dev"
+projects[extlink][version] = "1.16"
 
 projects[extlink_extra][version] = "1.x-dev"
 
@@ -70,7 +70,6 @@ projects[feeds][version] = "2.0-alpha8"
 projects[feeds_xpathparser][version] = "1.0-beta4"
 
 projects[field_collection][version] = "1.0-beta7"
-projects[field_collection][patch][] = "http://webapps.tbr.edu/drupal/patches/field_collection-beta5-beta7-upgrade-2221407-17.patch"
 
 projects[field_group][version] = "1.3"
 
@@ -99,9 +98,9 @@ projects[link][version] = "1.2"
 
 projects[mailsystem][version] = "2.34"
 
-projects[media][version] = "2.0-alpha3"
+projects[media][version] = "2.x-dev"
 
-projects[media_youtube][version] = "2.0-rc4"
+projects[media_youtube][version] = "2.x-dev"
 
 projects[memcache][version] = "1.1-beta5"
 
@@ -121,7 +120,7 @@ projects[node_revision_delete][version] = "1.1"
 
 projects[oembed][version] = "0.1-beta3"
 
-projects[options_element][version] = "1.10"
+projects[options_element][version] = "1.12"
 
 projects[panels][version] = "3.4"
 
@@ -177,7 +176,7 @@ projects[views_load_more][version] = "1.2"
 
 projects[views_php][version] = "1.0-alpha1"
 
-projects[webform][version] = "4.0-beta3"
+projects[webform][version] = "4.0-rc3"
 
 projects[webform_validation][version] = "1.5"
 
@@ -228,7 +227,7 @@ projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
 ; Themes
-projects[adminimal_theme][version] = "1.3"
+projects[adminimal_theme][version] = "1.4"
 projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
@@ -246,6 +245,16 @@ projects[tbr_meetings_mat][type] = theme
 projects[tbr_meetings_mat][download][type] = git
 projects[tbr_meetings_mat][download][branch] = master
 projects[tbr_meetings_mat][download][url] = "https://github.com/matthewgann/tbr_meetings_mat.git"
+
+projects[tbr_main][type] = theme
+projects[tbr_main][download][type] = git
+projects[tbr_main][download][branch] = master
+projects[tbr_main][download][url] = "https://github.com/tnregents/tbr_meetings_mat.git"
+
+projects[rocc][type] = theme
+projects[rocc][download][type] = git
+projects[rocc][download][branch] = master
+projects[rocc][download][url] = "https://github.com/tnregents/rocc.git"
 
 ; Libraries
 libraries[markitup][download][type] = "get"

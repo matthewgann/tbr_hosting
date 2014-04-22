@@ -4,7 +4,6 @@
 api = 2
 core = 7.x
 projects[drupal][type] = core
-projects[drupal][version] = 7.26
+projects[drupal][version] = 7.27
 
 ; CORE PATCHES
-// committed to core projects[drupal][patch][] = "http://webapps.tbr.edu/drupal/patches/node-access-records-1146244-110.patch"
