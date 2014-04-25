@@ -98,9 +98,9 @@ projects[link][version] = "1.2"
 
 projects[mailsystem][version] = "2.34"
 
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.0-alpha3"
 
-projects[media_youtube][version] = "2.x-dev"
+projects[media_youtube][version] = "2.0-rc4"
 
 projects[memcache][version] = "1.1-beta5"
 
