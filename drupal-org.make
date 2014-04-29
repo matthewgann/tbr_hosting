@@ -61,7 +61,7 @@ projects[entitycache][version] = "1.2"
 
 projects[extlink][version] = "1.16"
 
-projects[extlink_extra][version] = "1.x-dev"
+projects[extlink_extra][version] = "1.0-rc1"
 
 projects[features][version] = "2.0"
 
@@ -119,6 +119,7 @@ projects[node_export][version] = "3.0"
 projects[node_revision_delete][version] = "1.1"
 
 projects[oembed][version] = "1.x-dev"
+//projects[oembed][version] = "0.1-beta3"
 
 projects[options_element][version] = "1.12"
 
@@ -166,7 +167,7 @@ projects[elements][version] = "1.4"
 
 projects[views][version] = "3.7"
 
-projects[views_bootstrap][version] = "2.x-dev"
+projects[views_bootstrap][version] = "2.1"
 
 projects[views_boxes][version] = "1.0-beta8"
 
@@ -184,7 +185,7 @@ projects[workbench][version] = "1.2"
 
 projects[workbench_access][version] = "1.x-dev"
 
-projects[workbench_moderation][version] = "1.3"
+projects[workbench_moderation][version] = "1.x-dev"
 
 projects[xmlsitemap][version] = "2.0"
 
