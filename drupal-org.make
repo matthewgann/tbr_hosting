@@ -184,8 +184,8 @@ projects[workbench_access][version] = "1.x-dev"
 
 projects[scheduler_workbench][version] = "1.x-dev"
 projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler_workbench-revision_publish-707484-22.patch"
-projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler-workbench-publish-state-with-scheduled-publishing.patch"
-projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/2244871-schedular-workbench-message-1.patch"
+//projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler-workbench-publish-state-with-scheduled-publishing.patch"
+//projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/2244871-schedular-workbench-message-1.patch"
 
 
 projects[workbench_moderation][version] = "1.x-dev"
