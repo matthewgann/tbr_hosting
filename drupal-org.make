@@ -247,7 +247,7 @@ projects[tbr_meetings_mat][download][url] = "https://github.com/matthewgann/tbr_
 projects[tbr_main][type] = theme
 projects[tbr_main][download][type] = git
 projects[tbr_main][download][branch] = master
-projects[tbr_main][download][url] = "https://github.com/tnregents/tbr_meetings_mat.git"
+projects[tbr_main][download][url] = "https://github.com/tnregents/tbr_main.git"
 
 projects[rocc][type] = theme
 projects[rocc][download][type] = git
