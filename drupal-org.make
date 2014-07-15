@@ -236,7 +236,7 @@ projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
 ; Themes
-projects[adminimal_theme][version] = "1.7"
+projects[adminimal_theme][version] = "1.17"
 projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
