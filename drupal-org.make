@@ -185,7 +185,7 @@ projects[workbench][version] = "1.2"
 
 projects[workbench_access][version] = "1.x-dev"
 
-projects[workbench_media][version] = ="1.x-dev"
+projects[workbench_media][version] = "1.x-dev"
 
 projects[scheduler_workbench][version] = "1.x-dev"
 projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler_workbench-revision_publish-707484-22.patch"
