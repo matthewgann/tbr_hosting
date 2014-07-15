@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.27"
+projects[drupal][version] = "7.28"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -15,19 +15,19 @@ projects[better_exposed_filters][version] = "3.0-beta4"
 
 projects[better_formats][version] = "1.x-dev"
 
-projects[boxes][version] = "1.1"
+projects[boxes][version] = "1.2"
 
 projects[ctools][version] = "1.4"
 
 projects[calendar][version] = "3.4"
 
-projects[captcha][version] = "1.0"
+projects[captcha][version] = "1.1"
 
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.15"
 
 projects[ckeditor_link][version] = "2.3"
 
-projects[colorbox][version] = "2.5"
+projects[colorbox][version] = "2.7"
 
 projects[computed_field][version] = "1.0"
 
@@ -41,7 +41,7 @@ projects[config_perms][version] = "2.x-dev"
 
 projects[date][version] = "2.7"
 
-projects[devel][version] = "1.4"
+projects[devel][version] = "1.5"
 
 projects[diff][version] = "3.2"
 
@@ -59,7 +59,7 @@ projects[entity_autocomplete][version] = "1.0-beta3"
 
 projects[entitycache][version] = "1.2"
 
-projects[extlink][version] = "1.16"
+projects[extlink][version] = "1.17"
 
 projects[extlink_extra][version] = "1.0-rc1"
 
@@ -67,20 +67,22 @@ projects[features][version] = "2.0"
 
 projects[feeds][version] = "2.0-alpha8"
 
-projects[feeds_xpathparser][version] = "1.0-beta4"
+projects[feeds_xpathparser][version] = "1.x-dev"
 
 projects[field_collection][version] = "1.0-beta7"
 
-projects[field_group][version] = "1.3"
+projects[field_group][version] = "1.4"
 
 projects[file_entity][version] = "2.x-dev"
+
+projects[file_entity_revisions][version] = "1.x-dev"
 
 projects[field_permissions][version] = "1.x-dev"
 
 projects[google_cse][version] = "1.x-dev"
 projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
-projects[honeypot][version] = "1.16"
+projects[honeypot][version] = "1.17"
 
 projects[imageapi][version] = "1.x-dev"
 
@@ -98,13 +100,14 @@ projects[link][version] = "1.2"
 
 projects[mailsystem][version] = "2.34"
 
-projects[media][version] = "2.0-alpha3"
+projects[media][version] = "2.x-dev"
+//projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][version] = "2.0-rc4"
 
-projects[memcache][version] = "1.1-beta5"
+projects[memcache][version] = "1.2"
 
-projects[menu_block][version] = "2.3"
+projects[menu_block][version] = "2.4"
 
 projects[menu_firstchild][version] = "1.x-dev"
 
@@ -112,11 +115,11 @@ projects[mimemail][version] = "1.0-beta3"
 
 projects[module_filter][version] = "2.0-alpha2"
 
-projects[multiform][version] = "1.0"
+projects[multiform][version] = "1.1"
 
 projects[node_export][version] = "3.0"
 
-projects[node_revision_delete][version] = "1.1"
+projects[node_revision_delete][version] = "2.4"
 
 projects[options_element][version] = "1.12"
 
@@ -124,7 +127,7 @@ projects[panels][version] = "3.4"
 
 projects[pathauto][version] = "1.2"
 
-projects[path_breadcrumbs][version] = "3.0-rc2"
+projects[path_breadcrumbs][version] = "3.0"
 
 projects[phone][version] = "1.0-beta1"
 
@@ -140,7 +143,7 @@ projects[rolereference][version] = "1.1"
 
 prjects[rss_enclosure][version] = "1.2-dev"
 
-projects[rules][version] = "2.6"
+projects[rules][version] = "2.7"
 
 projects[scheduler][version] = "1.2"
 
@@ -162,11 +165,11 @@ projects[uuid][version] = "1.0-alpha5"
 
 projects[elements][version] = "1.4"
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[views_bootstrap][version] = "2.1"
 
-projects[views_boxes][version] = "1.0-beta8"
+projects[views_boxes][version] = "1.0"
 
 projects[views_bulk_operations][version] = "3.2"
 
@@ -174,13 +177,15 @@ projects[views_load_more][version] = "1.2"
 
 projects[views_php][version] = "1.0-alpha1"
 
-projects[webform][version] = "4.0-rc3"
+projects[webform][version] = "4.0-rc4"
 
 projects[webform_validation][version] = "1.5"
 
 projects[workbench][version] = "1.2"
 
 projects[workbench_access][version] = "1.x-dev"
+
+projects[workbench_media][version] = ="1.x-dev"
 
 projects[scheduler_workbench][version] = "1.x-dev"
 projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler_workbench-revision_publish-707484-22.patch"
@@ -231,7 +236,7 @@ projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
 ; Themes
-projects[adminimal_theme][version] = "1.4"
+projects[adminimal_theme][version] = "1.7"
 projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
