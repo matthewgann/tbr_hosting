@@ -73,7 +73,8 @@ projects[field_collection][version] = "1.0-beta7"
 
 projects[field_group][version] = "1.4"
 
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][download][url] = "http://webapps.tbr.edu/drupal/file_entity.zip"
+//projects[file_entity][version] = "2.x-dev"
 
 projects[file_entity_revisions][version] = "1.x-dev"
 
