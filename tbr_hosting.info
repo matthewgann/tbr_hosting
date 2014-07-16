@@ -80,7 +80,6 @@ dependencies[] = media
 dependencies[] = media_internet
 dependencies[] = menu_block
 dependencies[] = node_reference
-dependencies[] = oembedcore
 dependencies[] = options_element
 dependencies[] = pathauto
 dependencies[] = phone
