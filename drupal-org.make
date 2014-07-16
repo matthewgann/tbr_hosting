@@ -73,7 +73,7 @@ projects[field_collection][version] = "1.0-beta7"
 
 projects[field_group][version] = "1.4"
 
-projects[file_entity][version] = "2.0-alpha3+18-dev"
+projects[file_entity][version] = "2.x-dev"
 
 projects[file_entity_revisions][version] = "1.x-dev"
 
