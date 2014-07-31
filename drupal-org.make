@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.28"
+projects[drupal][version] = "7.30"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -23,9 +23,11 @@ projects[calendar][version] = "3.4"
 
 projects[captcha][version] = "1.1"
 
-projects[ckeditor][version] = "1.15"
+//projects[ckeditor][version] = "1.15"
 
 projects[ckeditor_link][version] = "2.3"
+
+projects[ckeditor_link_file][version] = "1.x-dev"
 
 projects[colorbox][version] = "2.7"
 
@@ -39,7 +41,7 @@ projects[content_access][version] = "1.2-beta2"
 
 projects[config_perms][version] = "2.x-dev"
 
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 
 projects[devel][version] = "1.5"
 
@@ -59,7 +61,7 @@ projects[entity_autocomplete][version] = "1.0-beta3"
 
 projects[entitycache][version] = "1.2"
 
-projects[extlink][version] = "1.17"
+projects[extlink][version] = "1.18"
 
 projects[extlink_extra][version] = "1.0-rc1"
 
@@ -67,14 +69,16 @@ projects[features][version] = "2.0"
 
 projects[feeds][version] = "2.0-alpha8"
 
+projects[feeds_tamper][version] = "1.0"
+
 projects[feeds_xpathparser][version] = "1.x-dev"
 
 projects[field_collection][version] = "1.0-beta7"
 
 projects[field_group][version] = "1.4"
 
-projects[file_entity][download][url] = "https://github.com/tnregents/file_entity.git"
-//projects[file_entity][version] = "2.x-dev"
+//projects[file_entity][download][url] = "https://github.com/tnregents/file_entity.git"
+projects[file_entity][version] = "2.x-dev"
 
 projects[file_entity_revisions][version] = "1.x-dev"
 
@@ -196,6 +200,8 @@ projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/
 
 projects[workbench_moderation][version] = "1.x-dev"
 
+project[wysiwyg][version] = "2.x-dev"
+
 projects[xmlsitemap][version] = "2.0"
 
 projects[util][version] = "1.0-rc2"
@@ -211,7 +217,7 @@ projects[tbr_webform_options][subdir] = tbr
 projects[tbr_webform_options][type] = module
 projects[tbr_webform_options][download][type] = git
 projects[tbr_webform_options][download][branch] = master
-projects[tbr_webform_options][download][url] = "https://github.com/tnregents/tbr_webform_options.git"
+projects[tbr_webform_options][download][url] = "https://github.com/matthewgann/tbr_webform_options.git"
 
 projects[tbr_meeting_materials][subdir] = tbr
 projects[tbr_meeting_materials][type] = module
