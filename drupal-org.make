@@ -286,7 +286,7 @@ libraries[plupload][download][url] = "http://webapps.tbr.edu/drupal/plupload.zip
 libraries[plupload][directory_name] = "plupload"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://webapps.tbr.edu/drupal/ckeditor_4.3.2_full.zip"
+libraries[ckeditor][download][url] = "http://webapps.tbr.edu/drupal/ckeditor.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[jquery.cycle][download][type] = "get"
