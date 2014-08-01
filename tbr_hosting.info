@@ -40,7 +40,6 @@ dependencies[] = adminimal_admin_menu
 dependencies[] = advanced_help
 dependencies[] = better_exposed_filters
 dependencies[] = boxes
-dependencies[] = ckeditor
 dependencies[] = colorbox
 dependencies[] = computed_field
 dependencies[] = computed_field_tools
