@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 // Build = 73
 
-projects[drupal][version] = "7.31"
+projects[drupal][version] = "7.32"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -20,7 +20,7 @@ projects[boxes][version] = "1.2"
 
 projects[ctools][version] = "1.4"
 
-projects[calendar][version] = "3.4"
+projects[calendar][version] = "3.5"
 
 projects[captcha][version] = "1.1"
 
@@ -30,7 +30,7 @@ projects[ckeditor_link][version] = "2.3"
 
 projects[ckeditor_link_file][version] = "1.x-dev"
 
-projects[colorbox][version] = "2.7"
+projects[colorbox][version] = "2.8"
 
 projects[computed_field][version] = "1.0"
 
@@ -38,9 +38,11 @@ projects[computed_field_tools][version] = "1.0"
 
 projects[conditional_fields][version] = "3.x-dev"
 
+projects[config_perms][version] = "2.x-dev"
+
 projects[content_access][version] = "1.2-beta2"
 
-projects[config_perms][version] = "2.x-dev"
+projects[data][version] = "1.0-alpha6"
 
 projects[date][version] = "2.8"
 
@@ -64,11 +66,11 @@ projects[entitycache][version] = "1.2"
 
 projects[extlink][version] = "1.18"
 
-projects[extlink_extra][version] = "1.0-rc1"
+projects[extlink_extra][version] = "1.0-rc2"
 
 projects[features][version] = "2.2"
 
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.x-dev"
 
 projects[feeds_tamper][version] = "1.0"
 
@@ -78,31 +80,37 @@ projects[field_collection][version] = "1.0-beta7"
 
 projects[field_group][version] = "1.4"
 
-//projects[file_entity][download][url] = "https://github.com/tnregents/file_entity.git"
 projects[file_entity][version] = "2.x-dev"
 
 projects[file_entity_revisions][version] = "1.x-dev"
 
 projects[field_permissions][version] = "1.x-dev"
 
-projects[google_cse][version] = "1.x-dev"
-projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
+projects[goaway][version] = "1.3"
+
+projects[google_cse][version] = "2.x-dev"
+//projects[google_cse][version] = "1.x-dev"
+//projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
 projects[honeypot][version] = "1.17"
 
 projects[imageapi][version] = "1.x-dev"
+
+projects[insert_view][version] = "2.0"
 
 projects[jquery_update][version] = "2.4"
 
 projects[job_scheduler][version] = "2.x-dev"
 
 projects[ldap][version] = "2.0-beta8"
-; Fixing mcrypt_generic_init Key size too large
+//Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.2"
 
-projects[link][version] = "1.2"
+projects[link][version] = "1.3"
+
+projects[linkit][version] = "3.2"
 
 projects[mailsystem][version] = "2.34"
 
@@ -125,7 +133,7 @@ projects[multiform][version] = "1.1"
 
 projects[node_export][version] = "3.0"
 
-projects[node_revision_delete][version] = "2.4"
+projects[node_revision_delete][version] = "2.6"
 
 projects[options_element][version] = "1.12"
 
@@ -137,13 +145,19 @@ projects[path_breadcrumbs][version] = "3.0"
 
 projects[phone][version] = "1.0-beta1"
 
+projects[phpmailer][version] = "3.x-dev"
+
+projects[plupload][version] = "1.x-dev"
+
+projects[quicktabs][version] = "3.x-dev"
+
 projects[references][version] = "2.1"
 
 projects[recaptcha][version] = "1.11"
 
 projects[redirect][version]= "1.x-dev"
 
-projects[respondjs][version] = "1.3"
+projects[respondjs][version] = "1.4"
 
 projects[rolereference][version] = "1.1"
 
@@ -153,7 +167,15 @@ projects[rules][version] = "2.7"
 
 projects[scheduler][version] = "1.2"
 
-projects[smtp][version] = "1.x-dev"
+projects[schema][version] = "1.2"
+
+//projects[smtp][version] = "1.x-dev"
+
+projects[simplehtmldom][version] = "2.1"
+
+projects[simplenews][version] = "1.1"
+
+projects[simplenews_scheduler][version] = "1.0-beta2"
 
 projects[special_menu_items][version] = "2.0"
 
@@ -167,9 +189,11 @@ projects[token][version] = "1.5"
 
 projects[token_filter][version] = "1.1"
 
-projects[uuid][version] = "1.0-alpha5"
+projects[uuid][version] = "1.0-alpha6"
 
 projects[elements][version] = "1.4"
+
+projects[viewfield][version] = "2.x-dev"
 
 projects[views][version] = "3.8"
 
@@ -179,13 +203,22 @@ projects[views_boxes][version] = "1.0"
 
 projects[views_bulk_operations][version] = "3.2"
 
-projects[views_load_more][version] = "1.2"
+projects[views_content_cache][version] = "3.0-alpha3"
+
+projects[views_load_more][version] = "1.5"
+
+projects[views_merge_rows][version] = "1.x-dev"
 
 projects[views_php][version] = "1.0-alpha1"
+projects[views_php][patch][] = "http://webapps.tbr.edu/drupal/patches/views_php-pager_missing-2276165-2.patch"
 
-projects[webform][version] = "4.0-rc5"
+projects[views_rules][version] = "1.0"
 
-projects[webform_validation][version] = "1.5"
+projects[webform][version] = "4.1"
+
+projects[webform_table_element][version] = "4.x-dev"
+
+projects[webform_validation][version] = "1.7"
 
 projects[workbench][version] = "1.2"
 
@@ -212,6 +245,12 @@ projects[tbr_salaries][type] = module
 projects[tbr_salaries][download][type] = git
 projects[tbr_salaries][download][branch] = master
 projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
+
+projects[tbr_blocks][subdir] = tbr
+projects[tbr_blocks][type] = module
+projects[tbr_blocks][download][type] = git
+projects[tbr_blocks][download][branch] = master
+projects[tbr_blocks][download][url] = "https://github.com/matthewgann/tbr_blocks.git"
 
 projects[tbr_contact_directory][subdir] = tbr
 projects[tbr_contact_directory][type] = module
@@ -249,7 +288,7 @@ projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
 ; Themes
-projects[adminimal_theme][version] = "1.17"
+projects[adminimal_theme][version] = "1.18"
 projects[adminimal_theme][type] = theme
 
 projects[open_framework][download][type] = "git"
@@ -279,30 +318,34 @@ projects[rocc][download][branch] = master
 projects[rocc][download][url] = "https://github.com/tnregents/rocc.git"
 
 ; Libraries
-libraries[markitup][download][type] = "get"
-libraries[markitup][download][url] = "http://webapps.tbr.edu/drupal/markitup.zip"
-libraries[markitup][directory_name] = "markitup"
-
-libraries[lessphp][download][type] = "get"
-libraries[lessphp][download][url] = "http://webapps.tbr.edu/drupal/lessphp.zip"
-libraries[lessphp][directory_name] = "lessphp"
-
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "http://webapps.tbr.edu/drupal/plupload.zip"
-libraries[plupload][directory_name] = "plupload"
-
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://webapps.tbr.edu/drupal/ckeditor.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
+libraries[colorbox][directory_name] = "colorbox"
 
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://webapps.tbr.edu/drupal/jquery.cycle.zip"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 
+libraries[lessphp][download][type] = "get"
+libraries[lessphp][download][url] = "http://webapps.tbr.edu/drupal/lessphp.zip"
+libraries[lessphp][directory_name] = "lessphp"
+
+libraries[markitup][download][type] = "get"
+libraries[markitup][download][url] = "http://webapps.tbr.edu/drupal/markitup.zip"
+libraries[markitup][directory_name] = "markitup"
+
+libraries[phpmailer][download][type] = "get"
+libraries[phpmailer][download][url] = "http://webapps.tbr.edu/drupal/phpmailer.zip"
+libraries[phpmailer][directory_name] = "phpmailer"
+
+libraries[plupload][download][type] = "get"
+libraries[plupload][download][url] = "http://webapps.tbr.edu/drupal/plupload.zip"
+libraries[plupload][directory_name] = "plupload"
+
 libraries[respondjs][download][type] = "get"
 libraries[respondjs][download][url] = "http://webapps.tbr.edu/drupal/respondjs.zip"
 libraries[respondjs][directory_name] = "respondjs"
-
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://webapps.tbr.edu/drupal/colorbox.zip"
-libraries[colorbox][directory_name] = "colorbox"
