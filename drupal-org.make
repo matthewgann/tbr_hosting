@@ -1,8 +1,6 @@
 api = 2
 core = 7.x
-// Build = 73
 
-; Modules
 projects[drupal][version] = "7.32"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -24,8 +22,6 @@ projects[ctools][version] = "1.4"
 projects[calendar][version] = "3.5"
 
 projects[captcha][version] = "1.1"
-
-//projects[ckeditor][version] = "1.15"
 
 projects[ckeditor_link][version] = "2.3"
 
@@ -90,8 +86,8 @@ projects[field_permissions][version] = "1.x-dev"
 projects[goaway][version] = "1.3"
 
 projects[google_cse][version] = "2.x-dev"
-//projects[google_cse][version] = "1.x-dev"
-//projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
+;projects[google_cse][version] = "1.x-dev"
+;projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
 projects[honeypot][version] = "1.17"
 
@@ -104,7 +100,7 @@ projects[jquery_update][version] = "2.4"
 projects[job_scheduler][version] = "2.x-dev"
 
 projects[ldap][version] = "2.0-beta8"
-//Fixing mcrypt_generic_init Key size too large
+;Fixing mcrypt_generic_init Key size too large
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.2"
@@ -116,7 +112,6 @@ projects[linkit][version] = "3.2"
 projects[mailsystem][version] = "2.34"
 
 projects[media][version] = "2.x-dev"
-//projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][version] = "2.x-dev"
 
@@ -169,8 +164,6 @@ projects[rules][version] = "2.7"
 projects[scheduler][version] = "1.2"
 
 projects[schema][version] = "1.2"
-
-//projects[smtp][version] = "1.x-dev"
 
 projects[simplehtmldom][version] = "2.1"
 
@@ -229,8 +222,6 @@ projects[workbench_media][version] = "1.x-dev"
 
 projects[scheduler_workbench][version] = "1.x-dev"
 projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler_workbench-revision_publish-707484-22.patch"
-//projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/scheduler-workbench-publish-state-with-scheduled-publishing.patch"
-//projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/2244871-schedular-workbench-message-1.patch"
 
 projects[workbench_moderation][version] = "1.x-dev"
 
@@ -241,11 +232,11 @@ projects[xmlsitemap][version] = "2.0"
 projects[util][version] = "1.0-rc2"
 
 ; TBR Modules
-projects[tbr_salaries][subdir] = tbr
-projects[tbr_salaries][type] = module
-projects[tbr_salaries][download][type] = git
-projects[tbr_salaries][download][branch] = master
-projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
+projects[login_terms_and_conditions][subdir] = tbr
+projects[login_terms_and_conditions][type] = module
+projects[login_terms_and_conditions][download][type] = git
+projects[login_terms_and_conditions][download][branch] = master
+projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
 
 projects[tbr_blocks][subdir] = tbr
 projects[tbr_blocks][type] = module
@@ -259,17 +250,23 @@ projects[tbr_contact_directory][download][type] = git
 projects[tbr_contact_directory][download][branch] = master
 projects[tbr_contact_directory][download][url] = "https://github.com/matthewgann/tbr_contact_directory.git"
 
-projects[tbr_webform_options][subdir] = tbr
-projects[tbr_webform_options][type] = module
-projects[tbr_webform_options][download][type] = git
-projects[tbr_webform_options][download][branch] = master
-projects[tbr_webform_options][download][url] = "https://github.com/matthewgann/tbr_webform_options.git"
-
 projects[tbr_meeting_materials][subdir] = tbr
 projects[tbr_meeting_materials][type] = module
 projects[tbr_meeting_materials][download][type] = git
 projects[tbr_meeting_materials][download][branch] = master
 projects[tbr_meeting_materials][download][url] = "https://github.com/matthewgann/tbr_meeting_materials.git"
+
+projects[tbr_programs][subdir] = tbr
+projects[tbr_programs][type] = module
+projects[tbr_programs][download][type] = git
+projects[tbr_programs][download][branch] = master
+projects[tbr_programs][download][url] = "https://github.com/matthewgann/tbr_programs.git"
+
+projects[tbr_salaries][subdir] = tbr
+projects[tbr_salaries][type] = module
+projects[tbr_salaries][download][type] = git
+projects[tbr_salaries][download][branch] = master
+projects[tbr_salaries][download][url] = "https://github.com/matthewgann/tbr_salaries.git"
 
 projects[tbr_showsummary][subdir] = tbr
 projects[tbr_showsummary][type] = module
@@ -277,11 +274,11 @@ projects[tbr_showsummary][download][type] = git
 projects[tbr_showsummary][download][branch] = master
 projects[tbr_showsummary][download][url] = "https://github.com/matthewgann/tbr_showsummary.git"
 
-projects[login_terms_and_conditions][subdir] = tbr
-projects[login_terms_and_conditions][type] = module
-projects[login_terms_and_conditions][download][type] = git
-projects[login_terms_and_conditions][download][branch] = master
-projects[login_terms_and_conditions][download][url] = "https://github.com/matthewgann/login_terms_and_conditions.git"
+projects[tbr_webform_options][subdir] = tbr
+projects[tbr_webform_options][type] = module
+projects[tbr_webform_options][download][type] = git
+projects[tbr_webform_options][download][branch] = master
+projects[tbr_webform_options][download][url] = "https://github.com/matthewgann/tbr_webform_options.git"
 
 projects[rules_diff][type] = module
 projects[rules_diff][download][type] = git
