@@ -225,7 +225,7 @@ projects[scheduler_workbench][patch][] = "http://webapps.tbr.edu/drupal/patches/
 
 projects[workbench_moderation][version] = "1.x-dev"
 
-project[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.x-dev"
 
 projects[xmlsitemap][version] = "2.0"
 
