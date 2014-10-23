@@ -208,6 +208,8 @@ projects[views_php][patch][] = "http://webapps.tbr.edu/drupal/patches/views_php-
 
 projects[views_rules][version] = "1.0"
 
+projects[views_send][version] = "1.1"
+
 projects[webform][version] = "4.1"
 
 projects[webform_table_element][version] = "4.x-dev"
