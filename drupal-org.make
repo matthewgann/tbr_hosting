@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.33"
 
 projects[admin_menu][version] = "3.0-rc4"
 
@@ -49,9 +49,7 @@ projects[diff][version] = "3.2"
 
 projects[draggableviews][version] = "2.0"
 
-projects[ds][version] = "2.6"
-
-projects[edit_profile][version] = "1.0-beta2"
+projects[ds][version] = "2.7"
 
 projects[email][version] = "1.3"
 
@@ -65,15 +63,13 @@ projects[extlink][version] = "1.18"
 
 projects[extlink_extra][version] = "1.0-rc2"
 
-projects[features][version] = "2.2"
-
 projects[feeds][version] = "2.x-dev"
 
 projects[feeds_tamper][version] = "1.0"
 
 projects[feeds_xpathparser][version] = "1.x-dev"
 
-projects[field_collection][version] = "1.0-beta7"
+projects[field_collection][version] = "1.0-beta8"
 
 projects[field_group][version] = "1.4"
 
@@ -81,13 +77,14 @@ projects[file_entity][version] = "2.x-dev"
 
 projects[file_entity_revisions][version] = "1.x-dev"
 
+projects[file_force][version] = "1.x-dev"
+
 projects[field_permissions][version] = "1.x-dev"
 
 projects[goaway][version] = "1.3"
 
-projects[google_cse][version] = "2.x-dev"
-;projects[google_cse][version] = "1.x-dev"
-;projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
+projects[google_cse][version] = "1.x-dev"
+projects[google_cse][patch][] = "http://webapps.tbr.edu/drupal/patches/google_cse-add-custom-search-element-1099294-36.patch"
 
 projects[honeypot][version] = "1.17"
 
@@ -99,8 +96,8 @@ projects[jquery_update][version] = "2.4"
 
 projects[job_scheduler][version] = "2.x-dev"
 
-projects[ldap][version] = "2.0-beta8"
-;Fixing mcrypt_generic_init Key size too large
+projects[ldap][version] = "2.x-dev"
+;projects[ldap][version] = "2.0-beta8"
 projects[ldap][patch][] = "http://webapps.tbr.edu/drupal/patches/ldap-views-fix-query-picture.patch"
 
 projects[libraries][version] = "2.2"
@@ -112,6 +109,7 @@ projects[linkit][version] = "3.2"
 projects[mailsystem][version] = "2.34"
 
 projects[media][version] = "2.x-dev"
+projects[media][patch][] = "http://webapps.tbr.edu/drupal/patches/media_wysiwyg-remove-ext-dev.patch"
 
 projects[media_youtube][version] = "2.x-dev"
 
@@ -120,6 +118,8 @@ projects[memcache][version] = "1.2"
 projects[menu_block][version] = "2.4"
 
 projects[menu_firstchild][version] = "1.x-dev"
+
+projects[metatag][version] = "1.4"
 
 projects[mimemail][version] = "1.0-beta3"
 
@@ -135,15 +135,13 @@ projects[options_element][version] = "1.12"
 
 projects[panels][version] = "3.4"
 
-projects[pathauto][version] = "1.2"
-
 projects[path_breadcrumbs][version] = "3.0"
 
-projects[phone][version] = "1.0-beta1"
+projects[pathauto][version] = "1.2"
 
 projects[phpmailer][version] = "3.x-dev"
 
-projects[plupload][version] = "1.x-dev"
+projects[plupload][version] = "1.7"
 
 projects[quicktabs][version] = "3.x-dev"
 
@@ -161,7 +159,7 @@ prjects[rss_enclosure][version] = "1.2-dev"
 
 projects[rules][version] = "2.7"
 
-projects[scheduler][version] = "1.2"
+projects[scheduler][version] = "1.3"
 
 projects[schema][version] = "1.2"
 
@@ -182,6 +180,8 @@ projects[taxonomy_display][version] = "1.1"
 projects[token][version] = "1.5"
 
 projects[token_filter][version] = "1.1"
+
+projects[unpublish_button][version] = "1.x-dev"
 
 projects[uuid][version] = "1.0-alpha6"
 
@@ -205,6 +205,8 @@ projects[views_merge_rows][version] = "1.x-dev"
 
 projects[views_php][version] = "1.0-alpha1"
 projects[views_php][patch][] = "http://webapps.tbr.edu/drupal/patches/views_php-pager_missing-2276165-2.patch"
+
+projects[views_rss][version] = "2.x-dev"
 
 projects[views_rules][version] = "1.0"
 
@@ -287,6 +289,12 @@ projects[rules_diff][download][type] = git
 projects[rules_diff][download][branch] = master
 projects[rules_diff][download][url] = "https://github.com/matthewgann/rules_diff.git"
 
+projects[webform_browserinfo][subdir] = webform
+projects[webform_browserinfo][type] = module
+projects[webform_browserinfo][download][type] = git
+projects[webform_browserinfo][download][branch] = master
+projects[webform_browserinfo][download][url] = "https://github.com/matthewgann/webform_browserinfo.git"
+
 ; Themes
 projects[adminimal_theme][version] = "1.18"
 projects[adminimal_theme][type] = theme
@@ -349,3 +357,7 @@ libraries[plupload][directory_name] = "plupload"
 libraries[respondjs][download][type] = "get"
 libraries[respondjs][download][url] = "http://webapps.tbr.edu/drupal/respondjs.zip"
 libraries[respondjs][directory_name] = "respondjs"
+
+libraries[simplehtmldom][download][type] = "get"
+libraries[simplehtmldom][download][url] = "http://webapps.tbr.edu/drupal/simplehtmldom.zip"
+libraries[simplehtmldom][directory_name] = "simplehtmldom"
