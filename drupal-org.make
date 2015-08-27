@@ -217,6 +217,10 @@ projects[views_bulk_operations][version] = "3.3"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 
+projects[views_flipped_table][version] = "1.x-dev"
+
+projects[views_json_query][version] = "1.0"
+
 projects[views_load_more][version] = "1.5"
 
 projects[views_merge_rows][version] = "1.x-dev"
