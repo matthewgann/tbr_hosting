@@ -81,7 +81,6 @@ dependencies[] = menu_block
 dependencies[] = node_reference
 dependencies[] = options_element
 dependencies[] = pathauto
-dependencies[] = phone
 dependencies[] = references
 dependencies[] = respondjs
 dependencies[] = rules
