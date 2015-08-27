@@ -71,7 +71,7 @@ projects[extlink][version] = "1.18"
 
 projects[extlink_extra][version] = "1.0-rc2"
 
-projects[feeds][version] = "2.x-beta1"
+projects[feeds][version] = "2.0-beta1"
 
 projects[feeds_tamper][version] = "1.1"
 
