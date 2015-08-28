@@ -123,7 +123,7 @@ projects[mailsystem][version] = "2.34"
 projects[media][version] = "2.x-dev"
 ;projects[media][patch][] = "http://webapps.tbr.edu/drupal/patches/media_wysiwyg-remove-ext-dev.patch"
 
-project[media_feeds][version] = "2.x-dev"
+projects[media_feeds][version] = "2.x-dev"
 
 projects[media_youtube][version] = "3.x-dev"
 
