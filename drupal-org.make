@@ -401,3 +401,7 @@ libraries[respondjs][directory_name] = "respondjs"
 libraries[simplehtmldom][download][type] = "get"
 libraries[simplehtmldom][download][url] = "http://webapps.tbr.edu/drupal/simplehtmldom.zip"
 libraries[simplehtmldom][directory_name] = "simplehtmldom"
+
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "http://webapps.tbr.edu/drupal/tcpdf.zip"
+libraries[tcpdf][directory_name] = "tcpdf"
