@@ -91,7 +91,7 @@ projects[filefield_paths][version] = "1.x-dev"
 
 projects[field_permissions][version] = "1.x-dev"
 
-project[fillpdf][version] = "2.x-dev"
+projects[fillpdf][version] = "2.x-dev"
 
 projects[goaway][version] = "1.3"
 
@@ -175,7 +175,7 @@ projects[respondjs][version] = "1.5"
 ;Will be replaced with entityreference
 projects[rolereference][version] = "1.1"
 
-prjects[rss_enclosure][version] = "1.2-dev"
+projects[rss_enclosure][version] = "1.2-dev"
 
 projects[rules][version] = "2.9"
 
