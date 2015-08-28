@@ -175,7 +175,7 @@ projects[respondjs][version] = "1.5"
 ;Will be replaced with entityreference
 projects[rolereference][version] = "1.1"
 
-projects[rss_enclosure][version] = "1.2-dev"
+;projects[rss_enclosure][version] = "1.2-dev"
 
 projects[rules][version] = "2.9"
 
