@@ -195,6 +195,10 @@ projects[strongarm][version] = "2.0"
 
 projects[stringoverrides][version] = "1.8"
 
+projects[taxonomy_creation_date][version] = "1.1"
+
+projects[taxonomy_sync][version] = "1.x-dev"
+
 projects[taxonomy_display][version] = "1.1"
 
 projects[token][version] = "1.6"
@@ -240,7 +244,7 @@ projects[webform][version] = "4.10"
 
 projects[webform_rules][version] = "1.x-dev"
 
-projects[webform_table_element][version] = "4.x-dev"
+projects[webform_table_element][version] = "2.x-dev"
 
 projects[webform_validation][version] = "1.10"
 
